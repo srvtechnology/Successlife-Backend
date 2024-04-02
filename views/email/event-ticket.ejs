@@ -1,0 +1,54 @@
+<%- include('include/header'); %>
+    <% var email_config = Config('application').email %>
+        <!-- header tr td strat -->
+        <tr>
+            <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+                <img src="<%= eventDetail.banner_image %>" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+                />
+            </td>
+        </tr>
+        <!-- header tr td strat -->
+        <!-- body content start -->
+        <tr>
+            <td style="background: #fff; line-height: 0; padding:10px 30px 30px 30px;">
+                <p style="text-align: center;">
+                    <img src="<%= email_config.logo %>" alt="" />
+                </p>    
+                <h1 style="font-weight:bold; font-size:25px; font-family: Arial, Helvetica, sans-serif; line-height:45px; margin-top:0; color:#47505e; text-align: center;">
+                    <%= product.title %>
+                </h1>
+                <p style="font-size: 18px; color: #000; line-height: 25px;font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: bold; margin-bottom:25px;">
+                    <%= paymentCategory.title %> TICKET
+                </p>
+                <p style="font-size: 16px; color: #454545; font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: bold; margin-bottom:10px;line-height: 15px;">
+                    <%= moment( eventDetail.start_date ).format('MMMM DD, YYYY') %>
+                </p>
+                <p style="font-size: 16px; color: #454545; font-family: Arial, Helvetica, sans-serif; text-align: center; margin-bottom:10px;     line-height: 15px;">To</p>
+                <p style="font-size: 16px; color: #454545; font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: bold; margin-bottom:10px; line-height: 15px;">
+                    <%= moment( eventDetail.end_date ).format('MMMM DD, YYYY') %>
+                </p>
+                <p style="font-size: 18px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: bold;">
+                    <%= city.name %>,
+                    <%= state.name %> - 
+                    <%= country.name %>
+                </p>
+                <h1 style="font-weight:bold; font-size:25px; font-family: Arial, Helvetica, sans-serif; line-height:45px; margin-top:0; color:#47505e; text-align: center; border-bottom:1px solid #e1e1e1;">User Information</h1>
+                <ul style="font-size:15px; line-height:24px; font-family: Arial, Helvetica, sans-serif; color: #454545;list-style: none;">
+                    <li><b>Name:</b>    <%= data.first_name %> <%= data.last_name %></li>
+                    <li><b>Email:</b>   <%= data.email %> </li>
+                    <li><b>Phone:</b>   <%= data.phone_number %></li>                    
+                </ul>
+                <p style="width: 100%; float: left;">
+                    <img src=" <%= data.bar_code %>" alt="bar code" style="width:400px; margin-right:30px;"/>
+                    <img src=" <%= data.qr_code %>" alt="qr code" style="float:right;"/>
+                </p> 
+                <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif; text-align: center;">For any enquiries, kindly email <a href="mailto:support.us@srglobal.com">support.us@srglobal.com</a> or Call us at 8888688883</p>
+                <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif; text-align: center;">Click <a href="https://successresourcesamerica.com/terms-conditions">HERE</a> to view our Terms & Conditions.</p>
+            
+            </td>
+        </tr>
+        <!-- body content end -->
+        
+        <!-- body content end -->
+
+        <%- include('include/footer'); %>

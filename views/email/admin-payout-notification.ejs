@@ -1,0 +1,31 @@
+<%- include('include/header'); %>
+    <% var email_config = Config('application').email %>
+
+        <!-- header tr td strat -->
+        <tr>
+            <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+                <img src="<%= email_config.url %>images/default_banner.png" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+                />
+            </td>
+        </tr>
+        <!-- header tr td strat -->
+
+        <!-- body content start -->
+        <tr>
+            <td style="background: #fff; padding:10px 30px 30px 30px;">
+                <p style="text-align: center;">
+                    <img src="<%= email_config.logo %>" alt="" />
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>                
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Regards,
+                    <br>
+                    <%= Config('app').name %>
+                </p>
+            </td>
+        </tr>
+        <!-- body content end -->
+
+
+        <%- include('include/footer'); %>

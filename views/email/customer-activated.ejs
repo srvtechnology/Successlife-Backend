@@ -1,0 +1,42 @@
+<%- include('include/header'); %>
+<% var email_config = Config('application').email %>
+
+    <!-- header tr td strat -->
+    <tr>
+        <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+            <img src="<%= email_config.url %>images/consumer-WL-mail.jpg" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+            />
+        </td>
+    </tr>
+    <!-- header tr td strat -->
+ 
+    <!-- body content start -->
+    <tr>
+        <td style="background: #fff; line-height: 0; padding:10px 30px 30px 30px;">
+            <p style="text-align: center;">
+                <img src="<%= email_config.logo %>" alt="" />
+            </p>
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">Model 1:</h3>
+            <h1 style="font-weight:bold; font-size:25px; font-family: Arial, Helvetica, sans-serif; line-height:45px; margin-top:0; color:#47505e; text-align: center;">Welcome to SuccessLife!</h1>
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">You have now become a part of a growing online marketplace that unites students and tutors around the globe.</p>
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">Find the potential opportunities</h3>
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">Search video-based courses instructed by talented tutors. </p>
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">Plan your way </h3>
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">Select courses depending on your individual ability level, budget, and time. </p>
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">Learn at any times </h3>
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">Take as much time as necessary, anyplace and enjoy the lifetime Access.</p>
+            <p style="font-size: 15px; color: #454545; line-height: 25px; font-family: Arial, Helvetica, sans-serif;">Why you need SuccessLife? </p>
+            <ul style="font-size:15px; line-height:24px; font-family: Arial, Helvetica, sans-serif; color: #454545;">
+                <li style="list-style:dot;">Get Fresh contents for Every Month.</li>
+                <li style="list-style:dot;">Easy access to search for courses. </li>
+                <li style="list-style:dot;">Expert tutors give practical insights you can practice immediately.</li>
+            </ul>
+            <p style="text-align: center;">
+                <a href="<%= email_config.url %>" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1; padding: 10px;">Learn More
+                </a>
+            </p>
+        </td>
+    </tr>
+    <!-- body content end -->
+    
+    <%- include('include/footer'); %>

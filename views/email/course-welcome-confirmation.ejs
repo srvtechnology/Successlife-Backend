@@ -1,0 +1,25 @@
+<%- include('include/header'); %>
+<% var email_config = Config('application').email %>
+
+    <!-- header tr td strat -->
+    <tr>
+        <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+            <img src="<%= email_config.url %>images/consumer-WL-mail.jpg" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+            />
+        </td>
+    </tr>
+    <!-- header tr td strat -->
+ 
+    <!-- body content start -->
+    <tr>
+        <td style="background: #fff; line-height: 0; padding:10px 30px 30px 30px; font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">
+            <p style="text-align: center;">
+                <img src="<%= email_config.logo %>" alt="" />
+            </p>            
+            
+            <%- details.welcome_template %>
+        </td>
+    </tr> 
+    <!-- body content end -->
+    
+    <%- include('include/footer'); %>

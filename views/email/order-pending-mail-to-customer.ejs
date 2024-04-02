@@ -1,0 +1,69 @@
+<%- include('include/header'); %>
+    <% var email_config = Config('application').email %>
+
+        <!-- header tr td strat -->
+        <tr>
+            <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+                <img src="<%= email_config.url %>images/order-confirmation-mail.png" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+                />
+            </td>
+        </tr>
+        <!-- header tr td strat -->
+
+        <!-- body content start -->
+        <tr>
+            <td style="background: #fff; padding:10px 30px 30px 30px;">
+                <p style="text-align: center;">
+                    <img src="<%= email_config.logo %>" alt="" />
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Hi <%= details.user.profile.full_name %>,
+                 </p>   
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Thank you for your purchase at SuccessLife Marketplace. Still, your order is in
+                    pending stage.
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Kindly, make your payment to complete the order.
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Order ID: #SLM100<%= details.id %>,
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Payment Address: 
+                    <br>
+                    <%= details.order_address.address %>
+                    <br>
+                    <%= details.order_address.country.name %> ,
+                    <%= details.order_address.state.name %> ,
+                    <%= details.order_address.city.name %>
+                    <br>
+                    <%= details.order_address.postcode %>                   
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Payment Amount:   <%= details.total_order_price_sxl %> SXL </p>                   
+               
+                <p style="text-align: center;">
+                    <a href="<%= myOrderLink %>" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">My Order
+                    </a>
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    If you have any questions regarding your payment, please <a href="<%= contactUsLink %>">contact us</a> and we will get right back to you.
+                </p>                 
+
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    <b>Note:</b>                    
+                </p>
+                 <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    We’ve noticed that your transaction (Order Number: #SLM100<%= details.id %>) is still pending. Did you face any problems during the transaction? If so, then contact our customer support and let us elp resolve the issue.                  
+                </p>
+
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Regards,
+                    <br>
+                    <%= Config('app').name %>
+                </p> 
+            </td>
+        </tr>
+        <!-- body content end -->
+
+        <%- include('include/footer'); %>

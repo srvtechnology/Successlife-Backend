@@ -1,0 +1,57 @@
+<%- include('include/header'); %>
+<% var email_config = Config('application').email %>
+
+    <!-- header tr td strat -->
+    <tr>
+        <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+            <img src="<%= email_config.url %>images/consumer-WL-mail.jpg" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+            />
+        </td>
+    </tr>
+    <!-- header tr td strat -->
+ 
+    <!-- body content start -->
+    <tr>
+        <td style="background: #fff; line-height: 0; padding:10px 30px 30px 30px;">
+            <p style="text-align: center;">
+                <img src="<%= email_config.logo %>" alt="" />
+            </p>
+           
+            <h1 style="font-weight:bold; font-size:25px; font-family: Arial, Helvetica, sans-serif; line-height:45px; margin-top:0; color:#47505e; text-align: center;">Welcome to SuccessLife Tutor Community</h1>
+            <p style="text-align: center;">
+                <a href="<%= email_config.url %>" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1; padding: 10px;">Create Course
+                </a>
+            </p>
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">Things you should know before publishing your course in our platform.</p>
+
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">1. Create your first course</h3>
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">SuccessLife courses are video-based/PDF content that offer consumers the chance to learn abilities that will help them in their career and life. Show your skills in videos and make it an incredible course. </p>
+
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">2. Engage your Consumers</h3>
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">The success of creating a great course is knowing what you&#39;ll teach, whom you’re creating the course for and what those consumers are wanting to achieve. </p>
+
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">3. Publish your course and get rewarded </h3>
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">Publish and host your course on Successlife for free of cost. Tutors will get rewarded with 50% revenue share on sales where the consumers purchase their courses. The tutor will have an option for paying out their earnings or can be able to use their earnings to promote their courses/buy new courses in our marketplace.</p> 
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">There will be a special offer for the tutors to buy the SuccessLife Tokens (SLTs) by using their earnings. The SuccessLife Token is an open source cryptographic token which is envisioned as a  general-purpose cryptocurrency. Like other cryptocurrencies, SuccessLife Tokens will have a fixed supply, be fungible and transferable and will be trade-able on cryptocurrency exchanges..</p> 
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px;font-family: Arial, Helvetica, sans-serif;">The benefits of SuccessLife Tokens (SXLs) can be used for investment which acts as an asset, the value of SXLs will be kept on growing and will make your money more than your investment value. SXLs can also be used to redeem it for the ticket of the famous events of Success Resources such as Unleash the Power Within, Millionaire Mind Intensive, National Achievers Congress and much more. Even SuccessLife Tokens (SXLs) will also be used in SuccessLife Marketplace to buy/promote the courses.</p> 
+
+            <h3 style="font-size:20px; color:#47505e; line-height: 25px;font-family: Arial, Helvetica, sans-serif; margin:10px 0;">4. See your effect </h3>
+
+            <p style="font-size: 15px; color: #454545; line-height: 25px; font-family: Arial, Helvetica, sans-serif;">After submitting your course for review, our team will look over your course and validate it. After confirmation, your course will be published. You will have the opportunity to interface with consumers all over the world. </p>
+            
+            <p style="text-align: center;">
+                <a href="<%= email_config.url %>" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1; padding: 10px;">Create Course
+                </a>
+            </p>
+            
+        </td>
+    </tr>
+    <!-- body content end -->
+    
+    <%- include('include/footer'); %>

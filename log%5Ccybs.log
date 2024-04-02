@@ -1,0 +1,836 @@
+2020-05-05T06:09:19.562Z - info: START > =======================================
+2020-05-05T06:09:19.564Z - info: Authentication Type : http_signature
+2020-05-05T06:09:19.564Z - info: Request Type : POST
+2020-05-05T06:09:19.565Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="rQ7VrpWxLIxrDiOqj2dggdsBIHVTFW8CI5YWrok8sWc="
+2020-05-05T06:09:19.566Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:09:19.566Z - info: v-c-merchant-id : successresources
+2020-05-05T06:09:19.566Z - info: date : Tue, 05 May 2020 06:09:19 GMT
+2020-05-05T06:09:19.566Z - info: host : apitest.cybersource.com
+2020-05-05T06:09:19.566Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="rQ7VrpWxLIxrDiOqj2dggdsBIHVTFW8CI5YWrok8sWc="
+2020-05-05T06:09:19.566Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:09:19.566Z - info: END > =========================================
+2020-05-05T06:09:21.217Z - info: START > =======================================
+2020-05-05T06:09:21.217Z - info: START > =======================================
+2020-05-05T06:09:21.217Z - info: Authentication Type : http_signature
+2020-05-05T06:09:21.217Z - info: Request Type : POST
+2020-05-05T06:09:21.218Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="um7s7kCuAcC4iJC67A/I3iAF5VGnkqT75Wt4SfcLSoQ="
+2020-05-05T06:09:21.218Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:09:21.218Z - info: v-c-merchant-id : successresources
+2020-05-05T06:09:21.218Z - info: date : Tue, 05 May 2020 06:09:21 GMT
+2020-05-05T06:09:21.218Z - info: host : apitest.cybersource.com
+2020-05-05T06:09:21.218Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="um7s7kCuAcC4iJC67A/I3iAF5VGnkqT75Wt4SfcLSoQ="
+2020-05-05T06:09:21.218Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:09:21.218Z - info: END > =========================================
+2020-05-05T06:09:22.364Z - info: Authentication Type : http_signature
+2020-05-05T06:09:22.366Z - info: Request Type : POST
+2020-05-05T06:09:22.366Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="k+bB04Gzm4zqlpxmBLEQHizAki34XOw518A5wd8TlhY="
+2020-05-05T06:09:22.366Z - info: digest : SHA-256=Vobz7cthP/mGwQX7/fiCSHkKK+7Nnj4hGEhrrgYRBmc=
+2020-05-05T06:09:22.366Z - info: v-c-merchant-id : successresources
+2020-05-05T06:09:22.366Z - info: date : Tue, 05 May 2020 06:09:22 GMT
+2020-05-05T06:09:22.366Z - info: host : apitest.cybersource.com
+2020-05-05T06:09:22.366Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="k+bB04Gzm4zqlpxmBLEQHizAki34XOw518A5wd8TlhY="
+2020-05-05T06:09:22.366Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:09:22.366Z - info: END > =========================================
+2020-05-05T06:09:23.620Z - info: START > =======================================
+2020-05-05T06:09:23.621Z - info: Authentication Type : http_signature
+2020-05-05T06:09:23.621Z - info: Request Type : POST
+2020-05-05T06:09:23.621Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RTqEsGP8JIf884wklKXGRdTdF0VtQkfzJ9LW81jjTz0="
+2020-05-05T06:09:23.621Z - info: digest : SHA-256=40Nnzw0x69+Kp6VlVbY43Dzo1BPfevaL4AZnWS0RzN4=
+2020-05-05T06:09:23.621Z - info: v-c-merchant-id : successresources
+2020-05-05T06:09:23.621Z - info: date : Tue, 05 May 2020 06:09:23 GMT
+2020-05-05T06:09:23.621Z - info: host : apitest.cybersource.com
+2020-05-05T06:09:23.621Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RTqEsGP8JIf884wklKXGRdTdF0VtQkfzJ9LW81jjTz0="
+2020-05-05T06:09:23.621Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:09:23.621Z - info: END > =========================================
+2020-05-05T06:12:18.025Z - info: START > =======================================
+2020-05-05T06:12:18.025Z - info: Authentication Type : http_signature
+2020-05-05T06:12:18.025Z - info: Request Type : POST
+2020-05-05T06:12:18.026Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3ibpxqeYJcQ6mgTK6nddvXen9pAId3z43+7mzCsk9zw="
+2020-05-05T06:12:18.026Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:12:18.026Z - info: v-c-merchant-id : successresources
+2020-05-05T06:12:18.026Z - info: date : Tue, 05 May 2020 06:12:18 GMT
+2020-05-05T06:12:18.026Z - info: host : apitest.cybersource.com
+2020-05-05T06:12:18.026Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3ibpxqeYJcQ6mgTK6nddvXen9pAId3z43+7mzCsk9zw="
+2020-05-05T06:12:18.026Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:12:18.026Z - info: END > =========================================
+2020-05-05T06:12:19.195Z - info: START > =======================================
+2020-05-05T06:12:19.197Z - info: START > =======================================
+2020-05-05T06:12:19.197Z - info: Authentication Type : http_signature
+2020-05-05T06:12:19.197Z - info: Request Type : POST
+2020-05-05T06:12:19.197Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Iq13D6nsGJbAyXG3sfbwU9SGYFjNdOmb7U24lc6ScOI="
+2020-05-05T06:12:19.197Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:12:19.197Z - info: v-c-merchant-id : successresources
+2020-05-05T06:12:19.197Z - info: date : Tue, 05 May 2020 06:12:19 GMT
+2020-05-05T06:12:19.197Z - info: host : apitest.cybersource.com
+2020-05-05T06:12:19.197Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Iq13D6nsGJbAyXG3sfbwU9SGYFjNdOmb7U24lc6ScOI="
+2020-05-05T06:12:19.197Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:12:19.197Z - info: END > =========================================
+2020-05-05T06:12:20.373Z - info: Authentication Type : http_signature
+2020-05-05T06:12:20.376Z - info: Request Type : POST
+2020-05-05T06:12:20.376Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="t0L1S9eYH35iWeaEN3SNrFUYBCT0E6ME/cbZuId1Hdk="
+2020-05-05T06:12:20.376Z - info: digest : SHA-256=KYtUx70UTaQve1ga5q65uHMbkI7uR/WerQFmMCx26Co=
+2020-05-05T06:12:20.376Z - info: v-c-merchant-id : successresources
+2020-05-05T06:12:20.376Z - info: date : Tue, 05 May 2020 06:12:20 GMT
+2020-05-05T06:12:20.376Z - info: host : apitest.cybersource.com
+2020-05-05T06:12:20.376Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="t0L1S9eYH35iWeaEN3SNrFUYBCT0E6ME/cbZuId1Hdk="
+2020-05-05T06:12:20.376Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:12:20.376Z - info: END > =========================================
+2020-05-05T06:14:29.252Z - info: START > =======================================
+2020-05-05T06:14:29.252Z - info: Authentication Type : http_signature
+2020-05-05T06:14:29.252Z - info: Request Type : POST
+2020-05-05T06:14:29.252Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="ynWD6PsT4Rxe3dtkWBGJPC/Sqv7vJB/JGOpyXdsFUZo="
+2020-05-05T06:14:29.252Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:14:29.252Z - info: v-c-merchant-id : successresources
+2020-05-05T06:14:29.252Z - info: date : Tue, 05 May 2020 06:14:29 GMT
+2020-05-05T06:14:29.252Z - info: host : apitest.cybersource.com
+2020-05-05T06:14:29.252Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="ynWD6PsT4Rxe3dtkWBGJPC/Sqv7vJB/JGOpyXdsFUZo="
+2020-05-05T06:14:29.252Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:14:29.252Z - info: END > =========================================
+2020-05-05T06:14:30.438Z - info: START > =======================================
+2020-05-05T06:14:30.438Z - info: START > =======================================
+2020-05-05T06:14:30.438Z - info: Authentication Type : http_signature
+2020-05-05T06:14:30.438Z - info: Request Type : POST
+2020-05-05T06:14:30.438Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="zGeEdPw9E3cni3P/hHoKxy12aVA2vVjC0ZfDJeCBwYg="
+2020-05-05T06:14:30.438Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:14:30.438Z - info: v-c-merchant-id : successresources
+2020-05-05T06:14:30.438Z - info: date : Tue, 05 May 2020 06:14:30 GMT
+2020-05-05T06:14:30.438Z - info: host : apitest.cybersource.com
+2020-05-05T06:14:30.438Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="zGeEdPw9E3cni3P/hHoKxy12aVA2vVjC0ZfDJeCBwYg="
+2020-05-05T06:14:30.438Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:14:30.438Z - info: END > =========================================
+2020-05-05T06:14:31.582Z - info: Authentication Type : http_signature
+2020-05-05T06:14:31.582Z - info: Request Type : POST
+2020-05-05T06:14:31.582Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="y1rNc4zaqotszPJmLEAyIrIynTZ8k0tla6Gea6aOyws="
+2020-05-05T06:14:31.582Z - info: digest : SHA-256=RsQBtDHD0wnAqWIjoMgUw6RwQvljs0Y2ZBQYr+PgBQc=
+2020-05-05T06:14:31.582Z - info: v-c-merchant-id : successresources
+2020-05-05T06:14:31.582Z - info: date : Tue, 05 May 2020 06:14:31 GMT
+2020-05-05T06:14:31.583Z - info: host : apitest.cybersource.com
+2020-05-05T06:14:31.583Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="y1rNc4zaqotszPJmLEAyIrIynTZ8k0tla6Gea6aOyws="
+2020-05-05T06:14:31.583Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:14:31.583Z - info: END > =========================================
+2020-05-05T06:19:56.133Z - info: START > =======================================
+2020-05-05T06:19:56.136Z - info: Authentication Type : http_signature
+2020-05-05T06:19:56.136Z - info: Request Type : POST
+2020-05-05T06:19:56.137Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DqHs141lMDE7o8/m1ndBQPRCXUf9rfwnnTgyhu3W4dI="
+2020-05-05T06:19:56.137Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:19:56.137Z - info: v-c-merchant-id : successresources
+2020-05-05T06:19:56.137Z - info: date : Tue, 05 May 2020 06:19:56 GMT
+2020-05-05T06:19:56.137Z - info: host : apitest.cybersource.com
+2020-05-05T06:19:56.137Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DqHs141lMDE7o8/m1ndBQPRCXUf9rfwnnTgyhu3W4dI="
+2020-05-05T06:19:56.137Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:19:56.137Z - info: END > =========================================
+2020-05-05T06:19:57.573Z - info: START > =======================================
+2020-05-05T06:19:57.573Z - info: START > =======================================
+2020-05-05T06:19:57.573Z - info: Authentication Type : http_signature
+2020-05-05T06:19:57.574Z - info: Request Type : POST
+2020-05-05T06:19:57.574Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="83VBeweti7WcU1a+FY3vkfVTyyg+td84w9upgDu3iaM="
+2020-05-05T06:19:57.574Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:19:57.574Z - info: v-c-merchant-id : successresources
+2020-05-05T06:19:57.574Z - info: date : Tue, 05 May 2020 06:19:57 GMT
+2020-05-05T06:19:57.574Z - info: host : apitest.cybersource.com
+2020-05-05T06:19:57.574Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="83VBeweti7WcU1a+FY3vkfVTyyg+td84w9upgDu3iaM="
+2020-05-05T06:19:57.574Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:19:57.574Z - info: END > =========================================
+2020-05-05T06:19:58.770Z - info: Authentication Type : http_signature
+2020-05-05T06:19:58.770Z - info: Request Type : POST
+2020-05-05T06:19:58.770Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="VOwrFGJ1MlFLUeXztq0MynqhRZOaMLyGGIeTvC+jHJw="
+2020-05-05T06:19:58.770Z - info: digest : SHA-256=9GR+R2HHWiof6LDzUnvacHpu9yo6F1JgYdxeS8U6gJg=
+2020-05-05T06:19:58.770Z - info: v-c-merchant-id : successresources
+2020-05-05T06:19:58.771Z - info: date : Tue, 05 May 2020 06:19:58 GMT
+2020-05-05T06:19:58.771Z - info: host : apitest.cybersource.com
+2020-05-05T06:19:58.771Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="VOwrFGJ1MlFLUeXztq0MynqhRZOaMLyGGIeTvC+jHJw="
+2020-05-05T06:19:58.771Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:19:58.771Z - info: END > =========================================
+2020-05-05T06:20:00.058Z - info: START > =======================================
+2020-05-05T06:20:00.058Z - info: Authentication Type : http_signature
+2020-05-05T06:20:00.058Z - info: Request Type : POST
+2020-05-05T06:20:00.059Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="v7uQvlHycDWEEDrWamxo+rO9SeqsYkSKNxD5L7ebfSg="
+2020-05-05T06:20:00.059Z - info: digest : SHA-256=bwNwRkbSJeTuYwu88UeMIoMBmT1oD5xmsGnPeu2cL2Q=
+2020-05-05T06:20:00.059Z - info: v-c-merchant-id : successresources
+2020-05-05T06:20:00.059Z - info: date : Tue, 05 May 2020 06:20:00 GMT
+2020-05-05T06:20:00.059Z - info: host : apitest.cybersource.com
+2020-05-05T06:20:00.059Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="v7uQvlHycDWEEDrWamxo+rO9SeqsYkSKNxD5L7ebfSg="
+2020-05-05T06:20:00.059Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:20:00.059Z - info: END > =========================================
+2020-05-05T06:26:20.068Z - info: START > =======================================
+2020-05-05T06:26:20.068Z - info: Authentication Type : http_signature
+2020-05-05T06:26:20.068Z - info: Request Type : POST
+2020-05-05T06:26:20.069Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3VQEo81hDKUBeiBwCPochFMAJROgGSPeSVeuS/27Yks="
+2020-05-05T06:26:20.069Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:26:20.069Z - info: v-c-merchant-id : successresources
+2020-05-05T06:26:20.069Z - info: date : Tue, 05 May 2020 06:26:20 GMT
+2020-05-05T06:26:20.069Z - info: host : apitest.cybersource.com
+2020-05-05T06:26:20.069Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3VQEo81hDKUBeiBwCPochFMAJROgGSPeSVeuS/27Yks="
+2020-05-05T06:26:20.069Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:26:20.069Z - info: END > =========================================
+2020-05-05T06:26:21.619Z - info: START > =======================================
+2020-05-05T06:26:21.619Z - info: START > =======================================
+2020-05-05T06:26:21.619Z - info: Authentication Type : http_signature
+2020-05-05T06:26:21.619Z - info: Request Type : POST
+2020-05-05T06:26:21.619Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="CxkvmSDMYoUnqbVnLd5IBLCqgMJ/2rHbfBNx8HsDw04="
+2020-05-05T06:26:21.620Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:26:21.620Z - info: v-c-merchant-id : successresources
+2020-05-05T06:26:21.620Z - info: date : Tue, 05 May 2020 06:26:21 GMT
+2020-05-05T06:26:21.620Z - info: host : apitest.cybersource.com
+2020-05-05T06:26:21.620Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="CxkvmSDMYoUnqbVnLd5IBLCqgMJ/2rHbfBNx8HsDw04="
+2020-05-05T06:26:21.620Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:26:21.620Z - info: END > =========================================
+2020-05-05T06:26:23.205Z - info: Authentication Type : http_signature
+2020-05-05T06:26:23.205Z - info: Request Type : POST
+2020-05-05T06:26:23.205Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Jr1IqgjrQlT5bFNhH+3krz6jy7iQTe24d/u7pyNltfU="
+2020-05-05T06:26:23.205Z - info: digest : SHA-256=rh2f5wQCwtYDgFV6lsXaoqTwapdCUYvS/VPcQIrRhmo=
+2020-05-05T06:26:23.205Z - info: v-c-merchant-id : successresources
+2020-05-05T06:26:23.205Z - info: date : Tue, 05 May 2020 06:26:23 GMT
+2020-05-05T06:26:23.205Z - info: host : apitest.cybersource.com
+2020-05-05T06:26:23.205Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Jr1IqgjrQlT5bFNhH+3krz6jy7iQTe24d/u7pyNltfU="
+2020-05-05T06:26:23.205Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:26:23.205Z - info: END > =========================================
+2020-05-05T06:28:05.591Z - info: START > =======================================
+2020-05-05T06:28:05.591Z - info: Authentication Type : http_signature
+2020-05-05T06:28:05.591Z - info: Request Type : POST
+2020-05-05T06:28:05.591Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="HuKTlpkBrnJyH7tTEh577aZtBZsZYLfg6c2SOf/J6bY="
+2020-05-05T06:28:05.591Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:28:05.591Z - info: v-c-merchant-id : successresources
+2020-05-05T06:28:05.591Z - info: date : Tue, 05 May 2020 06:28:05 GMT
+2020-05-05T06:28:05.591Z - info: host : apitest.cybersource.com
+2020-05-05T06:28:05.591Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="HuKTlpkBrnJyH7tTEh577aZtBZsZYLfg6c2SOf/J6bY="
+2020-05-05T06:28:05.591Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:28:05.591Z - info: END > =========================================
+2020-05-05T06:28:07.139Z - info: START > =======================================
+2020-05-05T06:28:07.139Z - info: START > =======================================
+2020-05-05T06:28:07.140Z - info: Authentication Type : http_signature
+2020-05-05T06:28:07.140Z - info: Request Type : POST
+2020-05-05T06:28:07.140Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="nUWKOb8VcgbKH/hvMxRo9M9SSF1TZUALdgyLQ1cnUn8="
+2020-05-05T06:28:07.141Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:28:07.141Z - info: v-c-merchant-id : successresources
+2020-05-05T06:28:07.141Z - info: date : Tue, 05 May 2020 06:28:07 GMT
+2020-05-05T06:28:07.141Z - info: host : apitest.cybersource.com
+2020-05-05T06:28:07.141Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="nUWKOb8VcgbKH/hvMxRo9M9SSF1TZUALdgyLQ1cnUn8="
+2020-05-05T06:28:07.141Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:28:07.141Z - info: END > =========================================
+2020-05-05T06:28:08.719Z - info: Authentication Type : http_signature
+2020-05-05T06:28:08.720Z - info: Request Type : POST
+2020-05-05T06:28:08.720Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="H67hiydpWS3iZse3kJKkXIVhiuGVMN1XknInrjIWU9o="
+2020-05-05T06:28:08.721Z - info: digest : SHA-256=X6kwK7qvAeV3xU0e84mCkgCj6onBzZrzRbcxZQfZU+o=
+2020-05-05T06:28:08.721Z - info: v-c-merchant-id : successresources
+2020-05-05T06:28:08.721Z - info: date : Tue, 05 May 2020 06:28:08 GMT
+2020-05-05T06:28:08.721Z - info: host : apitest.cybersource.com
+2020-05-05T06:28:08.721Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="H67hiydpWS3iZse3kJKkXIVhiuGVMN1XknInrjIWU9o="
+2020-05-05T06:28:08.721Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:28:08.721Z - info: END > =========================================
+2020-05-05T06:28:10.482Z - info: START > =======================================
+2020-05-05T06:28:10.483Z - info: Authentication Type : http_signature
+2020-05-05T06:28:10.483Z - info: Request Type : POST
+2020-05-05T06:28:10.483Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="19FLv3m6XArEt99R346dDKF4vbxtR5SfC3e9q6UUOok="
+2020-05-05T06:28:10.483Z - info: digest : SHA-256=ZI9abIgQNjiXzDew0jfPYYM3AOtMNSgc2HQPZ6Zqt+c=
+2020-05-05T06:28:10.483Z - info: v-c-merchant-id : successresources
+2020-05-05T06:28:10.483Z - info: date : Tue, 05 May 2020 06:28:10 GMT
+2020-05-05T06:28:10.483Z - info: host : apitest.cybersource.com
+2020-05-05T06:28:10.483Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="19FLv3m6XArEt99R346dDKF4vbxtR5SfC3e9q6UUOok="
+2020-05-05T06:28:10.483Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:28:10.483Z - info: END > =========================================
+2020-05-05T06:30:42.298Z - info: START > =======================================
+2020-05-05T06:30:42.298Z - info: Authentication Type : http_signature
+2020-05-05T06:30:42.298Z - info: Request Type : POST
+2020-05-05T06:30:42.299Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="avhZm48/Jd9K7H+DO//H1rptBI5inFpqMbcG3e0QEuY="
+2020-05-05T06:30:42.299Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:30:42.299Z - info: v-c-merchant-id : successresources
+2020-05-05T06:30:42.299Z - info: date : Tue, 05 May 2020 06:30:42 GMT
+2020-05-05T06:30:42.299Z - info: host : apitest.cybersource.com
+2020-05-05T06:30:42.299Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="avhZm48/Jd9K7H+DO//H1rptBI5inFpqMbcG3e0QEuY="
+2020-05-05T06:30:42.299Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:30:42.299Z - info: END > =========================================
+2020-05-05T06:30:43.861Z - info: START > =======================================
+2020-05-05T06:30:43.861Z - info: START > =======================================
+2020-05-05T06:30:43.862Z - info: Authentication Type : http_signature
+2020-05-05T06:30:43.862Z - info: Request Type : POST
+2020-05-05T06:30:43.862Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="D0C6TTDVphboCcOkmX3yE1n9D+J+QR3Egof12KZotjE="
+2020-05-05T06:30:43.862Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:30:43.862Z - info: v-c-merchant-id : successresources
+2020-05-05T06:30:43.862Z - info: date : Tue, 05 May 2020 06:30:43 GMT
+2020-05-05T06:30:43.862Z - info: host : apitest.cybersource.com
+2020-05-05T06:30:43.862Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="D0C6TTDVphboCcOkmX3yE1n9D+J+QR3Egof12KZotjE="
+2020-05-05T06:30:43.862Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:30:43.862Z - info: END > =========================================
+2020-05-05T06:30:46.784Z - info: Authentication Type : http_signature
+2020-05-05T06:30:46.786Z - info: Request Type : POST
+2020-05-05T06:30:46.786Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="M+HJ+YvgEo1k6aWow4xf/ByBHl4Y+isWXAELgmpW7Zk="
+2020-05-05T06:30:46.786Z - info: digest : SHA-256=RL76J7k67lqqU9m7QZ0sGsdosllFAzKPNa1kfPHL++0=
+2020-05-05T06:30:46.786Z - info: v-c-merchant-id : successresources
+2020-05-05T06:30:46.786Z - info: date : Tue, 05 May 2020 06:30:46 GMT
+2020-05-05T06:30:46.786Z - info: host : apitest.cybersource.com
+2020-05-05T06:30:46.786Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="M+HJ+YvgEo1k6aWow4xf/ByBHl4Y+isWXAELgmpW7Zk="
+2020-05-05T06:30:46.786Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:30:46.786Z - info: END > =========================================
+2020-05-05T06:30:48.592Z - info: START > =======================================
+2020-05-05T06:30:48.592Z - info: Authentication Type : http_signature
+2020-05-05T06:30:48.592Z - info: Request Type : POST
+2020-05-05T06:30:48.592Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oREffpAdNOGCGkz1ZEjzS3rSIsoPe9Emrm3cMZ0R83M="
+2020-05-05T06:30:48.592Z - info: digest : SHA-256=09GeKwC7nu9SbhnjC/IC7bftlzC32/Xoop35z4xqhzk=
+2020-05-05T06:30:48.592Z - info: v-c-merchant-id : successresources
+2020-05-05T06:30:48.592Z - info: date : Tue, 05 May 2020 06:30:48 GMT
+2020-05-05T06:30:48.592Z - info: host : apitest.cybersource.com
+2020-05-05T06:30:48.592Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oREffpAdNOGCGkz1ZEjzS3rSIsoPe9Emrm3cMZ0R83M="
+2020-05-05T06:30:48.592Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:30:48.592Z - info: END > =========================================
+2020-05-05T06:37:57.273Z - info: START > =======================================
+2020-05-05T06:37:57.273Z - info: Authentication Type : http_signature
+2020-05-05T06:37:57.273Z - info: Request Type : POST
+2020-05-05T06:37:57.274Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="NPlBWGPe43Uww+w7Jy7pOts5RPeTR24vCrc1jKdnQXk="
+2020-05-05T06:37:57.274Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:37:57.274Z - info: v-c-merchant-id : successresources
+2020-05-05T06:37:57.274Z - info: date : Tue, 05 May 2020 06:37:57 GMT
+2020-05-05T06:37:57.274Z - info: host : apitest.cybersource.com
+2020-05-05T06:37:57.274Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="NPlBWGPe43Uww+w7Jy7pOts5RPeTR24vCrc1jKdnQXk="
+2020-05-05T06:37:57.274Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:37:57.274Z - info: END > =========================================
+2020-05-05T06:37:58.922Z - info: START > =======================================
+2020-05-05T06:37:58.922Z - info: START > =======================================
+2020-05-05T06:37:58.923Z - info: Authentication Type : http_signature
+2020-05-05T06:37:58.923Z - info: Request Type : POST
+2020-05-05T06:37:58.923Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2kUyf4oflVC/3zb+bL8ExZYAQQ5eConMHnMaf44EhVI="
+2020-05-05T06:37:58.923Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:37:58.923Z - info: v-c-merchant-id : successresources
+2020-05-05T06:37:58.923Z - info: date : Tue, 05 May 2020 06:37:58 GMT
+2020-05-05T06:37:58.923Z - info: host : apitest.cybersource.com
+2020-05-05T06:37:58.924Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2kUyf4oflVC/3zb+bL8ExZYAQQ5eConMHnMaf44EhVI="
+2020-05-05T06:37:58.924Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:37:58.924Z - info: END > =========================================
+2020-05-05T06:38:00.503Z - info: Authentication Type : http_signature
+2020-05-05T06:38:00.505Z - info: Request Type : POST
+2020-05-05T06:38:00.505Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="XD8zoHTpZSSw8BBu7q7JeIYQT435OkjlVT6LplQcpMc="
+2020-05-05T06:38:00.505Z - info: digest : SHA-256=a3Qpws2AHmvgQlTwl7TJ3yMBqJEyFKdxYx67ltOOAwI=
+2020-05-05T06:38:00.505Z - info: v-c-merchant-id : successresources
+2020-05-05T06:38:00.505Z - info: date : Tue, 05 May 2020 06:38:00 GMT
+2020-05-05T06:38:00.505Z - info: host : apitest.cybersource.com
+2020-05-05T06:38:00.505Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="XD8zoHTpZSSw8BBu7q7JeIYQT435OkjlVT6LplQcpMc="
+2020-05-05T06:38:00.505Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:38:00.505Z - info: END > =========================================
+2020-05-05T06:38:02.285Z - info: START > =======================================
+2020-05-05T06:38:02.285Z - info: Authentication Type : http_signature
+2020-05-05T06:38:02.285Z - info: Request Type : POST
+2020-05-05T06:38:02.286Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="N50o1d4dMCzvpvH19NPRINFWJoIX71WgjZVoTwe+02Q="
+2020-05-05T06:38:02.286Z - info: digest : SHA-256=DVuw+zya7/lz0rhvj8QUeXgLBJBGD30edbIZs1BnCzo=
+2020-05-05T06:38:02.286Z - info: v-c-merchant-id : successresources
+2020-05-05T06:38:02.286Z - info: date : Tue, 05 May 2020 06:38:02 GMT
+2020-05-05T06:38:02.286Z - info: host : apitest.cybersource.com
+2020-05-05T06:38:02.286Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="N50o1d4dMCzvpvH19NPRINFWJoIX71WgjZVoTwe+02Q="
+2020-05-05T06:38:02.286Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:38:02.286Z - info: END > =========================================
+2020-05-05T06:42:52.775Z - info: START > =======================================
+2020-05-05T06:42:52.776Z - info: Authentication Type : http_signature
+2020-05-05T06:42:52.776Z - info: Request Type : POST
+2020-05-05T06:42:52.776Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DNAVjTZ2N8D0k3OEX0WGgXAsUxBYtIxZ1WmWdLJZV2I="
+2020-05-05T06:42:52.776Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:42:52.776Z - info: v-c-merchant-id : successresources
+2020-05-05T06:42:52.776Z - info: date : Tue, 05 May 2020 06:42:52 GMT
+2020-05-05T06:42:52.776Z - info: host : apitest.cybersource.com
+2020-05-05T06:42:52.776Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DNAVjTZ2N8D0k3OEX0WGgXAsUxBYtIxZ1WmWdLJZV2I="
+2020-05-05T06:42:52.776Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:42:52.776Z - info: END > =========================================
+2020-05-05T06:42:54.363Z - info: START > =======================================
+2020-05-05T06:42:54.364Z - info: START > =======================================
+2020-05-05T06:42:54.364Z - info: Authentication Type : http_signature
+2020-05-05T06:42:54.364Z - info: Request Type : POST
+2020-05-05T06:42:54.364Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DkGwKGoKL+0Qrgmi2C5F8R9jhKs7QXgewTHBnRfrEQ0="
+2020-05-05T06:42:54.364Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:42:54.364Z - info: v-c-merchant-id : successresources
+2020-05-05T06:42:54.364Z - info: date : Tue, 05 May 2020 06:42:54 GMT
+2020-05-05T06:42:54.364Z - info: host : apitest.cybersource.com
+2020-05-05T06:42:54.364Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DkGwKGoKL+0Qrgmi2C5F8R9jhKs7QXgewTHBnRfrEQ0="
+2020-05-05T06:42:54.364Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:42:54.364Z - info: END > =========================================
+2020-05-05T06:42:55.919Z - info: Authentication Type : http_signature
+2020-05-05T06:42:55.919Z - info: Request Type : POST
+2020-05-05T06:42:55.920Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DGt4KslaPeTVW384RzHPvQ5WG0zzOrBJylSyNRNtao8="
+2020-05-05T06:42:55.920Z - info: digest : SHA-256=1zt6EP/fSgBm85O0k8Hm3RowPPJ2zm3P7zW965ZOQII=
+2020-05-05T06:42:55.920Z - info: v-c-merchant-id : successresources
+2020-05-05T06:42:55.920Z - info: date : Tue, 05 May 2020 06:42:55 GMT
+2020-05-05T06:42:55.920Z - info: host : apitest.cybersource.com
+2020-05-05T06:42:55.920Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DGt4KslaPeTVW384RzHPvQ5WG0zzOrBJylSyNRNtao8="
+2020-05-05T06:42:55.920Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:42:55.920Z - info: END > =========================================
+2020-05-05T06:42:57.662Z - info: START > =======================================
+2020-05-05T06:42:57.662Z - info: Authentication Type : http_signature
+2020-05-05T06:42:57.662Z - info: Request Type : POST
+2020-05-05T06:42:57.662Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RjPXk1IMA2vT33Q3mLqytymeenDUzOd9HNXumwgtnxo="
+2020-05-05T06:42:57.662Z - info: digest : SHA-256=oQqyhDoLi/fRrFcu40QpLC3HC0ObeA5ZTxD3gm+1JMc=
+2020-05-05T06:42:57.662Z - info: v-c-merchant-id : successresources
+2020-05-05T06:42:57.662Z - info: date : Tue, 05 May 2020 06:42:57 GMT
+2020-05-05T06:42:57.662Z - info: host : apitest.cybersource.com
+2020-05-05T06:42:57.662Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RjPXk1IMA2vT33Q3mLqytymeenDUzOd9HNXumwgtnxo="
+2020-05-05T06:42:57.662Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:42:57.662Z - info: END > =========================================
+2020-05-05T06:46:16.254Z - info: START > =======================================
+2020-05-05T06:46:16.254Z - info: Authentication Type : http_signature
+2020-05-05T06:46:16.254Z - info: Request Type : POST
+2020-05-05T06:46:16.254Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xtIQX4SHUwQ7uox2HJr8T2thaajJYCjn74KcTN4+Ssk="
+2020-05-05T06:46:16.254Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:46:16.254Z - info: v-c-merchant-id : successresources
+2020-05-05T06:46:16.254Z - info: date : Tue, 05 May 2020 06:46:16 GMT
+2020-05-05T06:46:16.254Z - info: host : apitest.cybersource.com
+2020-05-05T06:46:16.254Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xtIQX4SHUwQ7uox2HJr8T2thaajJYCjn74KcTN4+Ssk="
+2020-05-05T06:46:16.254Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:46:16.254Z - info: END > =========================================
+2020-05-05T06:46:17.866Z - info: START > =======================================
+2020-05-05T06:46:17.866Z - info: START > =======================================
+2020-05-05T06:46:17.866Z - info: Authentication Type : http_signature
+2020-05-05T06:46:17.866Z - info: Request Type : POST
+2020-05-05T06:46:17.867Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="0U9QBOZAaQ8M/y20xrcDSh3bDPTYzkcmCf3Cq7lfjVE="
+2020-05-05T06:46:17.867Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:46:17.867Z - info: v-c-merchant-id : successresources
+2020-05-05T06:46:17.867Z - info: date : Tue, 05 May 2020 06:46:17 GMT
+2020-05-05T06:46:17.867Z - info: host : apitest.cybersource.com
+2020-05-05T06:46:17.867Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="0U9QBOZAaQ8M/y20xrcDSh3bDPTYzkcmCf3Cq7lfjVE="
+2020-05-05T06:46:17.867Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:46:17.867Z - info: END > =========================================
+2020-05-05T06:46:19.463Z - info: Authentication Type : http_signature
+2020-05-05T06:46:19.466Z - info: Request Type : POST
+2020-05-05T06:46:19.466Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="MLJ2vcA92uE/xVMpWeEBAaP9YWcOSdqr1Ms+MY4tMrM="
+2020-05-05T06:46:19.466Z - info: digest : SHA-256=1Bosg6+4i77kih0OzcsEGd1LaCXb3QlEw/nBoJ2K7jA=
+2020-05-05T06:46:19.466Z - info: v-c-merchant-id : successresources
+2020-05-05T06:46:19.466Z - info: date : Tue, 05 May 2020 06:46:19 GMT
+2020-05-05T06:46:19.466Z - info: host : apitest.cybersource.com
+2020-05-05T06:46:19.466Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="MLJ2vcA92uE/xVMpWeEBAaP9YWcOSdqr1Ms+MY4tMrM="
+2020-05-05T06:46:19.467Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:46:19.467Z - info: END > =========================================
+2020-05-05T06:46:21.277Z - info: START > =======================================
+2020-05-05T06:46:21.278Z - info: Authentication Type : http_signature
+2020-05-05T06:46:21.278Z - info: Request Type : POST
+2020-05-05T06:46:21.278Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3A33UehLVOb9TkWanEeGJLFFgIycArUpSZ4DAQU6GnA="
+2020-05-05T06:46:21.278Z - info: digest : SHA-256=ImgrZ9WNoK9ku0PHqQhjlZPx422C6A9XqTAWalqWNQQ=
+2020-05-05T06:46:21.278Z - info: v-c-merchant-id : successresources
+2020-05-05T06:46:21.278Z - info: date : Tue, 05 May 2020 06:46:21 GMT
+2020-05-05T06:46:21.278Z - info: host : apitest.cybersource.com
+2020-05-05T06:46:21.278Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3A33UehLVOb9TkWanEeGJLFFgIycArUpSZ4DAQU6GnA="
+2020-05-05T06:46:21.278Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:46:21.278Z - info: END > =========================================
+2020-05-05T06:50:24.667Z - info: START > =======================================
+2020-05-05T06:50:24.667Z - info: Authentication Type : http_signature
+2020-05-05T06:50:24.667Z - info: Request Type : POST
+2020-05-05T06:50:24.668Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="mdyrjdOuNIhYMe1DBrlk0nUIHX/DHrZz/LBtCywS2AU="
+2020-05-05T06:50:24.668Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:50:24.668Z - info: v-c-merchant-id : successresources
+2020-05-05T06:50:24.668Z - info: date : Tue, 05 May 2020 06:50:24 GMT
+2020-05-05T06:50:24.668Z - info: host : apitest.cybersource.com
+2020-05-05T06:50:24.668Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="mdyrjdOuNIhYMe1DBrlk0nUIHX/DHrZz/LBtCywS2AU="
+2020-05-05T06:50:24.668Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:50:24.668Z - info: END > =========================================
+2020-05-05T06:50:26.289Z - info: START > =======================================
+2020-05-05T06:50:26.289Z - info: START > =======================================
+2020-05-05T06:50:26.289Z - info: Authentication Type : http_signature
+2020-05-05T06:50:26.289Z - info: Request Type : POST
+2020-05-05T06:50:26.289Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="VBe/wXXdq1pHkbTIaiqWIf44kYU0CmzKrtu80mcnGBY="
+2020-05-05T06:50:26.289Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T06:50:26.289Z - info: v-c-merchant-id : successresources
+2020-05-05T06:50:26.289Z - info: date : Tue, 05 May 2020 06:50:26 GMT
+2020-05-05T06:50:26.289Z - info: host : apitest.cybersource.com
+2020-05-05T06:50:26.289Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="VBe/wXXdq1pHkbTIaiqWIf44kYU0CmzKrtu80mcnGBY="
+2020-05-05T06:50:26.289Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:50:26.289Z - info: END > =========================================
+2020-05-05T06:50:29.193Z - info: Authentication Type : http_signature
+2020-05-05T06:50:29.194Z - info: Request Type : POST
+2020-05-05T06:50:29.194Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Ia8fuERtcr1Pav6C+ChPVyG4xqs+z+Ay0sOKQrcSfz4="
+2020-05-05T06:50:29.194Z - info: digest : SHA-256=ZEwHdodVw+gvnSP3AHTb89FOj9D7Y8h7g+hkDTJMDOQ=
+2020-05-05T06:50:29.194Z - info: v-c-merchant-id : successresources
+2020-05-05T06:50:29.194Z - info: date : Tue, 05 May 2020 06:50:29 GMT
+2020-05-05T06:50:29.194Z - info: host : apitest.cybersource.com
+2020-05-05T06:50:29.194Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Ia8fuERtcr1Pav6C+ChPVyG4xqs+z+Ay0sOKQrcSfz4="
+2020-05-05T06:50:29.194Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:50:29.194Z - info: END > =========================================
+2020-05-05T06:50:30.895Z - info: START > =======================================
+2020-05-05T06:50:30.895Z - info: Authentication Type : http_signature
+2020-05-05T06:50:30.895Z - info: Request Type : POST
+2020-05-05T06:50:30.896Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="b3IH3VhmC2DWIhMmt5lr1V5/foCD/d7kThEgnsUk4SI="
+2020-05-05T06:50:30.896Z - info: digest : SHA-256=oQunl6QcHzJmo38TMdf0+7zII+DU5Ilb0KT4lJRRvRo=
+2020-05-05T06:50:30.896Z - info: v-c-merchant-id : successresources
+2020-05-05T06:50:30.896Z - info: date : Tue, 05 May 2020 06:50:30 GMT
+2020-05-05T06:50:30.896Z - info: host : apitest.cybersource.com
+2020-05-05T06:50:30.896Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="b3IH3VhmC2DWIhMmt5lr1V5/foCD/d7kThEgnsUk4SI="
+2020-05-05T06:50:30.896Z - info: User-Agent : Mozilla/5.0
+2020-05-05T06:50:30.896Z - info: END > =========================================
+2020-05-05T07:07:24.944Z - info: START > =======================================
+2020-05-05T07:07:24.946Z - info: Authentication Type : http_signature
+2020-05-05T07:07:24.946Z - info: Request Type : POST
+2020-05-05T07:07:24.947Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="uRAvLMbnrAEnFXAlSgGX9dAcxiTGydM2/PUNszbWVkw="
+2020-05-05T07:07:24.948Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T07:07:24.948Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:24.948Z - info: date : Tue, 05 May 2020 07:07:24 GMT
+2020-05-05T07:07:24.948Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:24.948Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="uRAvLMbnrAEnFXAlSgGX9dAcxiTGydM2/PUNszbWVkw="
+2020-05-05T07:07:24.948Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:24.948Z - info: END > =========================================
+2020-05-05T07:07:26.609Z - info: START > =======================================
+2020-05-05T07:07:26.609Z - info: START > =======================================
+2020-05-05T07:07:26.609Z - info: Authentication Type : http_signature
+2020-05-05T07:07:26.609Z - info: Request Type : POST
+2020-05-05T07:07:26.610Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="/ei7hWJn6t/fNrIFW8snVVyq0fsz3ISF61Fe46+c1Ds="
+2020-05-05T07:07:26.610Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T07:07:26.610Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:26.610Z - info: date : Tue, 05 May 2020 07:07:26 GMT
+2020-05-05T07:07:26.610Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:26.610Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="/ei7hWJn6t/fNrIFW8snVVyq0fsz3ISF61Fe46+c1Ds="
+2020-05-05T07:07:26.610Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:26.610Z - info: END > =========================================
+2020-05-05T07:07:28.176Z - info: Authentication Type : http_signature
+2020-05-05T07:07:28.176Z - info: Request Type : POST
+2020-05-05T07:07:28.177Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="NYJMqRzbZ9FkkPgJkX3VnftleVM/OLMw727B1SoRbgY="
+2020-05-05T07:07:28.177Z - info: digest : SHA-256=+yYsHxT1v+ib/Ip8zlUvHDUjem8CRyXps9KZi5EUBLU=
+2020-05-05T07:07:28.177Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:28.177Z - info: date : Tue, 05 May 2020 07:07:28 GMT
+2020-05-05T07:07:28.177Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:28.177Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="NYJMqRzbZ9FkkPgJkX3VnftleVM/OLMw727B1SoRbgY="
+2020-05-05T07:07:28.177Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:28.177Z - info: END > =========================================
+2020-05-05T07:07:50.529Z - info: START > =======================================
+2020-05-05T07:07:50.529Z - info: Authentication Type : http_signature
+2020-05-05T07:07:50.529Z - info: Request Type : POST
+2020-05-05T07:07:50.529Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="wl7T5LrgmHQNL45aThie0QAFqUdV1UR43PBXJ/hjG6U="
+2020-05-05T07:07:50.530Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T07:07:50.530Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:50.530Z - info: date : Tue, 05 May 2020 07:07:50 GMT
+2020-05-05T07:07:50.530Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:50.530Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="wl7T5LrgmHQNL45aThie0QAFqUdV1UR43PBXJ/hjG6U="
+2020-05-05T07:07:50.530Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:50.530Z - info: END > =========================================
+2020-05-05T07:07:52.124Z - info: START > =======================================
+2020-05-05T07:07:52.125Z - info: START > =======================================
+2020-05-05T07:07:52.125Z - info: Authentication Type : http_signature
+2020-05-05T07:07:52.125Z - info: Request Type : POST
+2020-05-05T07:07:52.125Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="5+yaZ1DKOI8/bni06v+/gwDpTOiYUoF1Hul49lO2vho="
+2020-05-05T07:07:52.125Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T07:07:52.125Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:52.125Z - info: date : Tue, 05 May 2020 07:07:52 GMT
+2020-05-05T07:07:52.125Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:52.125Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="5+yaZ1DKOI8/bni06v+/gwDpTOiYUoF1Hul49lO2vho="
+2020-05-05T07:07:52.126Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:52.126Z - info: END > =========================================
+2020-05-05T07:07:53.714Z - info: Authentication Type : http_signature
+2020-05-05T07:07:53.715Z - info: Request Type : POST
+2020-05-05T07:07:53.715Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="A70ZWGpbuo/H02+z9LAMpDgao3wKp0e73rKNI+zasuE="
+2020-05-05T07:07:53.715Z - info: digest : SHA-256=qhoKrHYhJprNc/5VM57RJ222dvdhyZMsNhOmdzk1d3g=
+2020-05-05T07:07:53.715Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:53.715Z - info: date : Tue, 05 May 2020 07:07:53 GMT
+2020-05-05T07:07:53.715Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:53.715Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="A70ZWGpbuo/H02+z9LAMpDgao3wKp0e73rKNI+zasuE="
+2020-05-05T07:07:53.715Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:53.715Z - info: END > =========================================
+2020-05-05T07:07:55.451Z - info: START > =======================================
+2020-05-05T07:07:55.451Z - info: Authentication Type : http_signature
+2020-05-05T07:07:55.451Z - info: Request Type : POST
+2020-05-05T07:07:55.451Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="76hXVv0g0BZOngcLd7+pwhEolPkKgVKhGl3uWs09k5w="
+2020-05-05T07:07:55.451Z - info: digest : SHA-256=891UtHmjpviVK+msjY7oMwQS9mcE1y2Fv1EKyONRJVE=
+2020-05-05T07:07:55.451Z - info: v-c-merchant-id : successresources
+2020-05-05T07:07:55.451Z - info: date : Tue, 05 May 2020 07:07:55 GMT
+2020-05-05T07:07:55.451Z - info: host : apitest.cybersource.com
+2020-05-05T07:07:55.451Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="76hXVv0g0BZOngcLd7+pwhEolPkKgVKhGl3uWs09k5w="
+2020-05-05T07:07:55.452Z - info: User-Agent : Mozilla/5.0
+2020-05-05T07:07:55.453Z - info: END > =========================================
+2020-05-05T09:53:22.928Z - info: START > =======================================
+2020-05-05T09:53:22.929Z - info: Authentication Type : http_signature
+2020-05-05T09:53:22.929Z - info: Request Type : POST
+2020-05-05T09:53:22.929Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RkO3GYltq0Dxs4U73IErn1p0Hyt6eaBfY0wpdu+ryHU="
+2020-05-05T09:53:22.930Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T09:53:22.930Z - info: v-c-merchant-id : successresources
+2020-05-05T09:53:22.930Z - info: date : Tue, 05 May 2020 09:53:22 GMT
+2020-05-05T09:53:22.930Z - info: host : apitest.cybersource.com
+2020-05-05T09:53:22.930Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RkO3GYltq0Dxs4U73IErn1p0Hyt6eaBfY0wpdu+ryHU="
+2020-05-05T09:53:22.930Z - info: User-Agent : Mozilla/5.0
+2020-05-05T09:53:22.930Z - info: END > =========================================
+2020-05-05T09:53:24.419Z - info: START > =======================================
+2020-05-05T09:53:24.419Z - info: START > =======================================
+2020-05-05T09:53:24.420Z - info: Authentication Type : http_signature
+2020-05-05T09:53:24.420Z - info: Request Type : POST
+2020-05-05T09:53:24.420Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="E5dS15uOj5TophXUD2MgjPppg9DceGbnwaGeSFnTp5Q="
+2020-05-05T09:53:24.420Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T09:53:24.420Z - info: v-c-merchant-id : successresources
+2020-05-05T09:53:24.420Z - info: date : Tue, 05 May 2020 09:53:24 GMT
+2020-05-05T09:53:24.420Z - info: host : apitest.cybersource.com
+2020-05-05T09:53:24.420Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="E5dS15uOj5TophXUD2MgjPppg9DceGbnwaGeSFnTp5Q="
+2020-05-05T09:53:24.420Z - info: User-Agent : Mozilla/5.0
+2020-05-05T09:53:24.420Z - info: END > =========================================
+2020-05-05T09:53:25.631Z - info: Authentication Type : http_signature
+2020-05-05T09:53:25.631Z - info: Request Type : POST
+2020-05-05T09:53:25.631Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="TJCEBFuMuxHJXSFOxzz5Eq70ptnLlTmTCVuepLd96YQ="
+2020-05-05T09:53:25.631Z - info: digest : SHA-256=EFyxMeuTp5gtkOpUBsLf7/5rtyJUsHTfpmJtOjWPXZ8=
+2020-05-05T09:53:25.631Z - info: v-c-merchant-id : successresources
+2020-05-05T09:53:25.631Z - info: date : Tue, 05 May 2020 09:53:25 GMT
+2020-05-05T09:53:25.631Z - info: host : apitest.cybersource.com
+2020-05-05T09:53:25.631Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="TJCEBFuMuxHJXSFOxzz5Eq70ptnLlTmTCVuepLd96YQ="
+2020-05-05T09:53:25.631Z - info: User-Agent : Mozilla/5.0
+2020-05-05T09:53:25.631Z - info: END > =========================================
+2020-05-05T09:53:26.943Z - info: START > =======================================
+2020-05-05T09:53:26.943Z - info: Authentication Type : http_signature
+2020-05-05T09:53:26.943Z - info: Request Type : POST
+2020-05-05T09:53:26.943Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="GnLQMuHMmc+mgPyLIDserqzK7Oibggo+E6ZIxP6PTt8="
+2020-05-05T09:53:26.944Z - info: digest : SHA-256=an2mbDOcggVMK/+kUT2hW0eB8k5AL/nn9mNQ1gNcw0E=
+2020-05-05T09:53:26.944Z - info: v-c-merchant-id : successresources
+2020-05-05T09:53:26.944Z - info: date : Tue, 05 May 2020 09:53:26 GMT
+2020-05-05T09:53:26.944Z - info: host : apitest.cybersource.com
+2020-05-05T09:53:26.944Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="GnLQMuHMmc+mgPyLIDserqzK7Oibggo+E6ZIxP6PTt8="
+2020-05-05T09:53:26.944Z - info: User-Agent : Mozilla/5.0
+2020-05-05T09:53:26.944Z - info: END > =========================================
+2020-05-05T10:09:47.545Z - info: START > =======================================
+2020-05-05T10:09:47.545Z - info: Authentication Type : http_signature
+2020-05-05T10:09:47.546Z - info: Request Type : POST
+2020-05-05T10:09:47.546Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vTdWhJADgozKEL6EuUzjjGzvEuwncq1+B2RK7se+AKE="
+2020-05-05T10:09:47.546Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T10:09:47.546Z - info: v-c-merchant-id : successresources
+2020-05-05T10:09:47.546Z - info: date : Tue, 05 May 2020 10:09:47 GMT
+2020-05-05T10:09:47.546Z - info: host : apitest.cybersource.com
+2020-05-05T10:09:47.546Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vTdWhJADgozKEL6EuUzjjGzvEuwncq1+B2RK7se+AKE="
+2020-05-05T10:09:47.546Z - info: User-Agent : Mozilla/5.0
+2020-05-05T10:09:47.546Z - info: END > =========================================
+2020-05-05T10:09:48.734Z - info: START > =======================================
+2020-05-05T10:09:48.734Z - info: START > =======================================
+2020-05-05T10:09:48.734Z - info: Authentication Type : http_signature
+2020-05-05T10:09:48.734Z - info: Request Type : POST
+2020-05-05T10:09:48.734Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="L1HOhzRe9ioXFDQUXk1eUT2V9193oL26VNuqrttvVd0="
+2020-05-05T10:09:48.734Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T10:09:48.734Z - info: v-c-merchant-id : successresources
+2020-05-05T10:09:48.734Z - info: date : Tue, 05 May 2020 10:09:48 GMT
+2020-05-05T10:09:48.734Z - info: host : apitest.cybersource.com
+2020-05-05T10:09:48.734Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="L1HOhzRe9ioXFDQUXk1eUT2V9193oL26VNuqrttvVd0="
+2020-05-05T10:09:48.734Z - info: User-Agent : Mozilla/5.0
+2020-05-05T10:09:48.734Z - info: END > =========================================
+2020-05-05T10:09:49.938Z - info: Authentication Type : http_signature
+2020-05-05T10:09:49.939Z - info: Request Type : POST
+2020-05-05T10:09:49.940Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="ZnlROXsw/OodfaWiC+RoobcvY8Q1QZFSnBNzOj+csbA="
+2020-05-05T10:09:49.940Z - info: digest : SHA-256=MGJjP9ApTZHnEyiVMkQ7w4B5v+qkRG7f5ZtL188J6RE=
+2020-05-05T10:09:49.940Z - info: v-c-merchant-id : successresources
+2020-05-05T10:09:49.940Z - info: date : Tue, 05 May 2020 10:09:49 GMT
+2020-05-05T10:09:49.940Z - info: host : apitest.cybersource.com
+2020-05-05T10:09:49.940Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="ZnlROXsw/OodfaWiC+RoobcvY8Q1QZFSnBNzOj+csbA="
+2020-05-05T10:09:49.940Z - info: User-Agent : Mozilla/5.0
+2020-05-05T10:09:49.940Z - info: END > =========================================
+2020-05-05T11:08:57.960Z - info: START > =======================================
+2020-05-05T11:08:57.960Z - info: Authentication Type : http_signature
+2020-05-05T11:08:57.960Z - info: Request Type : POST
+2020-05-05T11:08:57.961Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="mDAxTF24EB37WOz4WdJBoGcOUDEjtfeEEuhQF8Czj68="
+2020-05-05T11:08:57.961Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T11:08:57.961Z - info: v-c-merchant-id : successresources
+2020-05-05T11:08:57.961Z - info: date : Tue, 05 May 2020 11:08:57 GMT
+2020-05-05T11:08:57.961Z - info: host : apitest.cybersource.com
+2020-05-05T11:08:57.961Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="mDAxTF24EB37WOz4WdJBoGcOUDEjtfeEEuhQF8Czj68="
+2020-05-05T11:08:57.961Z - info: User-Agent : Mozilla/5.0
+2020-05-05T11:08:57.961Z - info: END > =========================================
+2020-05-05T11:08:59.308Z - info: START > =======================================
+2020-05-05T11:08:59.309Z - info: START > =======================================
+2020-05-05T11:08:59.309Z - info: Authentication Type : http_signature
+2020-05-05T11:08:59.309Z - info: Request Type : POST
+2020-05-05T11:08:59.309Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="yaCQs/eEAvc2xSfkPRPBfvSSXK2a+N15S+ZZRwVCIG8="
+2020-05-05T11:08:59.309Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T11:08:59.309Z - info: v-c-merchant-id : successresources
+2020-05-05T11:08:59.309Z - info: date : Tue, 05 May 2020 11:08:59 GMT
+2020-05-05T11:08:59.309Z - info: host : apitest.cybersource.com
+2020-05-05T11:08:59.309Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="yaCQs/eEAvc2xSfkPRPBfvSSXK2a+N15S+ZZRwVCIG8="
+2020-05-05T11:08:59.309Z - info: User-Agent : Mozilla/5.0
+2020-05-05T11:08:59.309Z - info: END > =========================================
+2020-05-05T11:09:00.469Z - info: Authentication Type : http_signature
+2020-05-05T11:09:00.469Z - info: Request Type : POST
+2020-05-05T11:09:00.469Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="phEcJBzMaCFSfVfM7h8S6GoBdUtTcxXO47hXqZZSUFs="
+2020-05-05T11:09:00.469Z - info: digest : SHA-256=OkFyG8twIP3tjvMCJFFRyvSlxBS5osc++o/PnNQgZRM=
+2020-05-05T11:09:00.469Z - info: v-c-merchant-id : successresources
+2020-05-05T11:09:00.469Z - info: date : Tue, 05 May 2020 11:09:00 GMT
+2020-05-05T11:09:00.469Z - info: host : apitest.cybersource.com
+2020-05-05T11:09:00.469Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="phEcJBzMaCFSfVfM7h8S6GoBdUtTcxXO47hXqZZSUFs="
+2020-05-05T11:09:00.469Z - info: User-Agent : Mozilla/5.0
+2020-05-05T11:09:00.469Z - info: END > =========================================
+2020-05-05T11:09:01.782Z - info: START > =======================================
+2020-05-05T11:09:01.782Z - info: Authentication Type : http_signature
+2020-05-05T11:09:01.782Z - info: Request Type : POST
+2020-05-05T11:09:01.783Z - info: signatureHeader : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="AVLe3c8nujtkoyIhWyanRsRl6bCkjrEe8xvHicvO1jY="
+2020-05-05T11:09:01.783Z - info: digest : SHA-256=SBAxOPrCcujjJiDmTmkyF0+9kK5STpRUlMrfKXd8fpw=
+2020-05-05T11:09:01.783Z - info: v-c-merchant-id : successresources
+2020-05-05T11:09:01.783Z - info: date : Tue, 05 May 2020 11:09:01 GMT
+2020-05-05T11:09:01.783Z - info: host : apitest.cybersource.com
+2020-05-05T11:09:01.783Z - info: signature : keyid="185cd2b3-c9b2-494e-8836-a45abcf2bc3c", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="AVLe3c8nujtkoyIhWyanRsRl6bCkjrEe8xvHicvO1jY="
+2020-05-05T11:09:01.783Z - info: User-Agent : Mozilla/5.0
+2020-05-05T11:09:01.783Z - info: END > =========================================
+2020-05-05T13:30:01.193Z - info: START > =======================================
+2020-05-05T13:30:01.195Z - info: Authentication Type : http_signature
+2020-05-05T13:30:01.195Z - info: Request Type : POST
+2020-05-05T13:30:01.196Z - info: signatureHeader : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="SJMtRzBEAKZxHcks5WyONYYHrZVRZ65RYuCe82dhWug="
+2020-05-05T13:30:01.196Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T13:30:01.196Z - info: v-c-merchant-id : successresources
+2020-05-05T13:30:01.196Z - info: date : Tue, 05 May 2020 13:30:01 GMT
+2020-05-05T13:30:01.196Z - info: host : apitest.cybersource.com
+2020-05-05T13:30:01.196Z - info: signature : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="SJMtRzBEAKZxHcks5WyONYYHrZVRZ65RYuCe82dhWug="
+2020-05-05T13:30:01.196Z - info: User-Agent : Mozilla/5.0
+2020-05-05T13:30:01.197Z - info: END > =========================================
+2020-05-05T13:31:37.530Z - info: START > =======================================
+2020-05-05T13:31:37.533Z - info: Authentication Type : http_signature
+2020-05-05T13:31:37.533Z - info: Request Type : POST
+2020-05-05T13:31:37.534Z - info: signatureHeader : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="8IOrW+Ujk4Z3GgoyHHNmjRqYXYTW4nRH6hKRJPJT67I="
+2020-05-05T13:31:37.534Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T13:31:37.534Z - info: v-c-merchant-id : successresources
+2020-05-05T13:31:37.534Z - info: date : Tue, 05 May 2020 13:31:37 GMT
+2020-05-05T13:31:37.534Z - info: host : apitest.cybersource.com
+2020-05-05T13:31:37.534Z - info: signature : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="8IOrW+Ujk4Z3GgoyHHNmjRqYXYTW4nRH6hKRJPJT67I="
+2020-05-05T13:31:37.534Z - info: User-Agent : Mozilla/5.0
+2020-05-05T13:31:37.534Z - info: END > =========================================
+2020-05-05T13:49:29.517Z - info: START > =======================================
+2020-05-05T13:49:29.519Z - info: Authentication Type : http_signature
+2020-05-05T13:49:29.520Z - info: Request Type : POST
+2020-05-05T13:49:29.520Z - info: signatureHeader : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="j5/lUaAGEGDiewvmfLi7pPPT8EBXpVpM0EATBZ+lg7w="
+2020-05-05T13:49:29.521Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T13:49:29.521Z - info: v-c-merchant-id : successresources
+2020-05-05T13:49:29.521Z - info: date : Tue, 05 May 2020 13:49:29 GMT
+2020-05-05T13:49:29.521Z - info: host : apitest.cybersource.com
+2020-05-05T13:49:29.521Z - info: signature : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="j5/lUaAGEGDiewvmfLi7pPPT8EBXpVpM0EATBZ+lg7w="
+2020-05-05T13:49:29.521Z - info: User-Agent : Mozilla/5.0
+2020-05-05T13:49:29.521Z - info: END > =========================================
+2020-05-05T13:51:42.641Z - info: START > =======================================
+2020-05-05T13:51:42.643Z - info: Authentication Type : http_signature
+2020-05-05T13:51:42.643Z - info: Request Type : POST
+2020-05-05T13:51:42.644Z - info: signatureHeader : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="PfOrS7pd0FPwwl8P5/t+eVFmPYlWeZpOmCH9Fj3Z9Qc="
+2020-05-05T13:51:42.644Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T13:51:42.644Z - info: v-c-merchant-id : successresources
+2020-05-05T13:51:42.644Z - info: date : Tue, 05 May 2020 13:51:42 GMT
+2020-05-05T13:51:42.644Z - info: host : apitest.cybersource.com
+2020-05-05T13:51:42.644Z - info: signature : keyid="d90c2fbd-3f6c-4e4f-a5ee-cfd9b3e8da75", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="PfOrS7pd0FPwwl8P5/t+eVFmPYlWeZpOmCH9Fj3Z9Qc="
+2020-05-05T13:51:42.644Z - info: User-Agent : Mozilla/5.0
+2020-05-05T13:51:42.644Z - info: END > =========================================
+2020-05-05T14:02:50.483Z - info: START > =======================================
+2020-05-05T14:02:50.486Z - info: Authentication Type : http_signature
+2020-05-05T14:02:50.486Z - info: Request Type : POST
+2020-05-05T14:02:50.490Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="ZN0rrcRiMKIQr3ii4DkvSF4swX4lc93GxpYXLZUyQZA="
+2020-05-05T14:02:50.491Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:02:50.491Z - info: v-c-merchant-id : successresources
+2020-05-05T14:02:50.491Z - info: date : Tue, 05 May 2020 14:02:50 GMT
+2020-05-05T14:02:50.491Z - info: host : apitest.cybersource.com
+2020-05-05T14:02:50.491Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="ZN0rrcRiMKIQr3ii4DkvSF4swX4lc93GxpYXLZUyQZA="
+2020-05-05T14:02:50.491Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:02:50.491Z - info: END > =========================================
+2020-05-05T14:11:23.294Z - info: START > =======================================
+2020-05-05T14:11:23.297Z - info: Authentication Type : http_signature
+2020-05-05T14:11:23.297Z - info: Request Type : POST
+2020-05-05T14:11:23.298Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="92EfKqBTlLNJYxPJjqAvnALVfEpC7A7IgLXcbakq5TU="
+2020-05-05T14:11:23.298Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:11:23.298Z - info: v-c-merchant-id : successresources
+2020-05-05T14:11:23.298Z - info: date : Tue, 05 May 2020 14:11:23 GMT
+2020-05-05T14:11:23.298Z - info: host : api.cybersource.com
+2020-05-05T14:11:23.298Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="92EfKqBTlLNJYxPJjqAvnALVfEpC7A7IgLXcbakq5TU="
+2020-05-05T14:11:23.298Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:11:23.298Z - info: END > =========================================
+2020-05-05T14:11:24.344Z - info: START > =======================================
+2020-05-05T14:11:24.344Z - info: START > =======================================
+2020-05-05T14:11:24.345Z - info: Authentication Type : http_signature
+2020-05-05T14:11:24.345Z - info: Request Type : POST
+2020-05-05T14:11:24.345Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Qz8hT9cRUTfbTJt0kFaoROUyrbTrZA41ydRlDANtuaY="
+2020-05-05T14:11:24.345Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:11:24.345Z - info: v-c-merchant-id : successresources
+2020-05-05T14:11:24.345Z - info: date : Tue, 05 May 2020 14:11:24 GMT
+2020-05-05T14:11:24.345Z - info: host : api.cybersource.com
+2020-05-05T14:11:24.345Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Qz8hT9cRUTfbTJt0kFaoROUyrbTrZA41ydRlDANtuaY="
+2020-05-05T14:11:24.345Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:11:24.345Z - info: END > =========================================
+2020-05-05T14:11:25.328Z - info: Authentication Type : http_signature
+2020-05-05T14:11:25.328Z - info: Request Type : POST
+2020-05-05T14:11:25.328Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="GkcgL7Ib+BGakWeNK7xQt7SVDx/pnJWhK/gA22dPUY8="
+2020-05-05T14:11:25.328Z - info: digest : SHA-256=FXBGNsa3vE3KOO4sLtBL1JKoEwUJXtFyRV3LNJzSrNg=
+2020-05-05T14:11:25.328Z - info: v-c-merchant-id : successresources
+2020-05-05T14:11:25.328Z - info: date : Tue, 05 May 2020 14:11:25 GMT
+2020-05-05T14:11:25.328Z - info: host : api.cybersource.com
+2020-05-05T14:11:25.328Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="GkcgL7Ib+BGakWeNK7xQt7SVDx/pnJWhK/gA22dPUY8="
+2020-05-05T14:11:25.328Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:11:25.328Z - info: END > =========================================
+2020-05-05T14:14:51.988Z - info: START > =======================================
+2020-05-05T14:14:51.988Z - info: Authentication Type : http_signature
+2020-05-05T14:14:51.989Z - info: Request Type : POST
+2020-05-05T14:14:51.989Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="OMW+f7QMjKBLqsyrA8xbyv4bap4CT/VNmvvZOi7bH8M="
+2020-05-05T14:14:51.989Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:14:51.989Z - info: v-c-merchant-id : successresources
+2020-05-05T14:14:51.989Z - info: date : Tue, 05 May 2020 14:14:51 GMT
+2020-05-05T14:14:51.990Z - info: host : api.cybersource.com
+2020-05-05T14:14:51.990Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="OMW+f7QMjKBLqsyrA8xbyv4bap4CT/VNmvvZOi7bH8M="
+2020-05-05T14:14:51.990Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:14:51.990Z - info: END > =========================================
+2020-05-05T14:14:52.954Z - info: START > =======================================
+2020-05-05T14:14:52.955Z - info: START > =======================================
+2020-05-05T14:14:52.955Z - info: Authentication Type : http_signature
+2020-05-05T14:14:52.955Z - info: Request Type : POST
+2020-05-05T14:14:52.955Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="M57xS2KxIe0zWC3tJNfSVrOcwiiaW+WeqeqdTu0toa0="
+2020-05-05T14:14:52.955Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:14:52.955Z - info: v-c-merchant-id : successresources
+2020-05-05T14:14:52.955Z - info: date : Tue, 05 May 2020 14:14:52 GMT
+2020-05-05T14:14:52.955Z - info: host : api.cybersource.com
+2020-05-05T14:14:52.955Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="M57xS2KxIe0zWC3tJNfSVrOcwiiaW+WeqeqdTu0toa0="
+2020-05-05T14:14:52.955Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:14:52.955Z - info: END > =========================================
+2020-05-05T14:14:53.913Z - info: Authentication Type : http_signature
+2020-05-05T14:14:53.913Z - info: Request Type : POST
+2020-05-05T14:14:53.913Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2GPe1Zy4JAY+D4GOutfFbhSb/cm7/bk3CFLnpSQ80as="
+2020-05-05T14:14:53.913Z - info: digest : SHA-256=UApKljzTBQFDQgpvJ90UXKiJY0hvm8yzuZPJH1jkJP8=
+2020-05-05T14:14:53.913Z - info: v-c-merchant-id : successresources
+2020-05-05T14:14:53.913Z - info: date : Tue, 05 May 2020 14:14:53 GMT
+2020-05-05T14:14:53.913Z - info: host : api.cybersource.com
+2020-05-05T14:14:53.913Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2GPe1Zy4JAY+D4GOutfFbhSb/cm7/bk3CFLnpSQ80as="
+2020-05-05T14:14:53.913Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:14:53.913Z - info: END > =========================================
+2020-05-05T14:23:12.536Z - info: START > =======================================
+2020-05-05T14:23:12.538Z - info: Authentication Type : http_signature
+2020-05-05T14:23:12.538Z - info: Request Type : POST
+2020-05-05T14:23:12.539Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="cMtyj66Ecppa/65NVALmnGGXXGiVgoroQ0shoJa1y7A="
+2020-05-05T14:23:12.540Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:23:12.540Z - info: v-c-merchant-id : successresources
+2020-05-05T14:23:12.540Z - info: date : Tue, 05 May 2020 14:23:12 GMT
+2020-05-05T14:23:12.540Z - info: host : api.cybersource.com
+2020-05-05T14:23:12.540Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="cMtyj66Ecppa/65NVALmnGGXXGiVgoroQ0shoJa1y7A="
+2020-05-05T14:23:12.540Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:23:12.540Z - info: END > =========================================
+2020-05-05T14:23:13.881Z - info: START > =======================================
+2020-05-05T14:23:13.881Z - info: START > =======================================
+2020-05-05T14:23:13.882Z - info: Authentication Type : http_signature
+2020-05-05T14:23:13.882Z - info: Request Type : POST
+2020-05-05T14:23:13.882Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vPqdqbZDUBpc/HvmxNAgwTqSGetGuq/3o/Epf2AZ5tY="
+2020-05-05T14:23:13.882Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:23:13.882Z - info: v-c-merchant-id : successresources
+2020-05-05T14:23:13.882Z - info: date : Tue, 05 May 2020 14:23:13 GMT
+2020-05-05T14:23:13.882Z - info: host : api.cybersource.com
+2020-05-05T14:23:13.882Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vPqdqbZDUBpc/HvmxNAgwTqSGetGuq/3o/Epf2AZ5tY="
+2020-05-05T14:23:13.882Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:23:13.882Z - info: END > =========================================
+2020-05-05T14:23:15.056Z - info: Authentication Type : http_signature
+2020-05-05T14:23:15.058Z - info: Request Type : POST
+2020-05-05T14:23:15.059Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="E4yR2X6B6GHxfMHkWhSCOmN7HHYoK8JTmswJ+9D/TEg="
+2020-05-05T14:23:15.059Z - info: digest : SHA-256=0N7Du4VWN2CMJHjahR2+L7vtVVjF3SW3Hd37W9D06V0=
+2020-05-05T14:23:15.059Z - info: v-c-merchant-id : successresources
+2020-05-05T14:23:15.059Z - info: date : Tue, 05 May 2020 14:23:15 GMT
+2020-05-05T14:23:15.059Z - info: host : api.cybersource.com
+2020-05-05T14:23:15.059Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="E4yR2X6B6GHxfMHkWhSCOmN7HHYoK8JTmswJ+9D/TEg="
+2020-05-05T14:23:15.059Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:23:15.059Z - info: END > =========================================
+2020-05-05T14:26:05.593Z - info: START > =======================================
+2020-05-05T14:26:05.595Z - info: Authentication Type : http_signature
+2020-05-05T14:26:05.595Z - info: Request Type : POST
+2020-05-05T14:26:05.596Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="04u3ZUkgElaH+70Ps04mXRdzQg1C/T8HohT179asomU="
+2020-05-05T14:26:05.596Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:26:05.596Z - info: v-c-merchant-id : successresources
+2020-05-05T14:26:05.596Z - info: date : Tue, 05 May 2020 14:26:05 GMT
+2020-05-05T14:26:05.597Z - info: host : api.cybersource.com
+2020-05-05T14:26:05.597Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="04u3ZUkgElaH+70Ps04mXRdzQg1C/T8HohT179asomU="
+2020-05-05T14:26:05.597Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:26:05.597Z - info: END > =========================================
+2020-05-05T14:26:06.764Z - info: START > =======================================
+2020-05-05T14:26:06.764Z - info: START > =======================================
+2020-05-05T14:26:06.765Z - info: Authentication Type : http_signature
+2020-05-05T14:26:06.765Z - info: Request Type : POST
+2020-05-05T14:26:06.765Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2hjV+qL5F6xRho4PoVxNVN55sARrm8Vb3Rak8vOkQh8="
+2020-05-05T14:26:06.765Z - info: digest : SHA-256=bena9bhB3Jy4uPvfu1tAC0uN8AuzzM+xjqmDwR5//EA=
+2020-05-05T14:26:06.765Z - info: v-c-merchant-id : successresources
+2020-05-05T14:26:06.765Z - info: date : Tue, 05 May 2020 14:26:06 GMT
+2020-05-05T14:26:06.765Z - info: host : api.cybersource.com
+2020-05-05T14:26:06.765Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2hjV+qL5F6xRho4PoVxNVN55sARrm8Vb3Rak8vOkQh8="
+2020-05-05T14:26:06.765Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:26:06.765Z - info: END > =========================================
+2020-05-05T14:26:07.944Z - info: Authentication Type : http_signature
+2020-05-05T14:26:07.946Z - info: Request Type : POST
+2020-05-05T14:26:07.946Z - info: signatureHeader : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="tgpjzlK+gIJMPN8rAapIXlN3SBtgsLQe9g0r9qxA8oA="
+2020-05-05T14:26:07.947Z - info: digest : SHA-256=mweXJ6vQaLgvkiRj9UhrwE5Q+7kh2OgVqvyUtfnWhbQ=
+2020-05-05T14:26:07.947Z - info: v-c-merchant-id : successresources
+2020-05-05T14:26:07.947Z - info: date : Tue, 05 May 2020 14:26:07 GMT
+2020-05-05T14:26:07.947Z - info: host : api.cybersource.com
+2020-05-05T14:26:07.947Z - info: signature : keyid="4baf5fb8-8122-4e13-a5f9-4c740d95e66f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="tgpjzlK+gIJMPN8rAapIXlN3SBtgsLQe9g0r9qxA8oA="
+2020-05-05T14:26:07.947Z - info: User-Agent : Mozilla/5.0
+2020-05-05T14:26:07.947Z - info: END > =========================================

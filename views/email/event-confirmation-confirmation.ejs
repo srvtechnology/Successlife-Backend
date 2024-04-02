@@ -1,0 +1,75 @@
+<%- include('include/header'); %>
+    <% var email_config = Config('application').email %>
+
+
+        <!-- header tr td strat -->
+        <tr>
+            <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+                <img src="<%= details.banner_image %>" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+                />
+            </td>
+        </tr>
+        <!-- header tr td strat -->
+
+        <!-- body content start -->
+        <tr>
+            <td style="background: #fff; padding:10px 30px 30px 30px;">
+                <p style="text-align: center;">
+                    <img src="<%= email_config.logo %>" alt="" />
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Dear <%= userObj.user.profile.full_name %>,
+                 </p>   
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    Congratulations on reserving your ticket for the <%= productDetails.title %> in <%= details.city.name%>, <%= details.country.code %> on  <%= moment( details.start_date ).format('MMMM DD, YYYY') %>
+                </p>
+                <%if (qty > 1) { %>
+                    <p style="text-align: center;">
+                        <a href="<%= webUrl %>event-attendee-info?token=<%= token %>" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1; padding: 1px; font-size: 18px;">Attendee Information
+                        </a>
+                    </p>
+                <% } %>
+               
+                <span style="background:#d2cece;float:left;width:100%;padding:10px;line-height:25px;margin-bottom:10px; font-family:Avenir,Helvetica,sans-serif; font-size:18px;">
+                    <h2>Event Information</h2>
+                    <p><b>Event Date:</b><span style="color:#74787e"> <%= moment( details.start_date ).format('MMMM DD, YYYY') %> </span></p>
+                    <p><b>Event Venue:</b> 
+                        <span style="color:#74787e">  <%= details.city.name%>,<%= details.state.name %> - <%= details.country.code %> ,<%= details.post_code %> </span>
+                    </p>                    
+                </span>
+                <h2 style="text-align:center;font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;"><b>ALL GUESTS AND GUEST PROPERTY IS SUBJECT TO SCREENING</b></h2>
+                <p style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">Please bring one (1) form of identification for check-in. Please have your ticket or email confirmation of ticket ready.</p>
+                <p style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">For the safety of all attendees, the following items are prohibited inside the venue:</p>
+                <ul style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">
+                    <li>All weapons and firearms including all handguns, knives, and pepper spray</li>
+                    <li>Binoculars, binocular cases, camera cases</li>
+                    <li>Illegal substances</li>
+                    <li>Outside food or beverage including cans, coolers, and containers (exceptions are made for medical reasons and children)</li>
+                    <li>Laser pointers and laser pens</li>
+                    <li>Skateboards, remote controlled cars, hoverboards, UACs, drones</li>
+                    <li>Inflatable objects including beach balls, balloons, etc. </li>
+                    <li>All large bags including backpacks, tote bags, suitcases, roller bags, briefcases, and laptop bags</li>
+                    <li>Bulky coats or outerwear</li>
+                    <li>Sealed packages of any kind</li>
+                    <li>Selfie sticks, video recorders, audio recorders, professional camera equipment</li>
+                    <li>Air horns, noise makers, whistles, fireworks</li>                    
+                </ul>
+                <p style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">Scheduled breaks will be announced throughout the event, and food vendors available on-site. </p>
+                <p style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">To ensure delivery of our emails including e-tickets and event details to your inbox, please add us to your address book: 
+                    <a href="mailto:support@successlife.com">support@successlife.com</a>
+                </p>
+                <p style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">You are receiving this email because you have purchased a ticket to the event listed. All sales are final, purchase of tickets are not subject to refund. Purchase of a ticket entitles you to admission to the event.
+                </p>   
+                <p style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">
+                    Note: You can expect to receive your ticket(s) 72 hours before the event start date.
+                </p>                
+               
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Regards,
+                    <br>
+                    <%= Config('app').name %>
+                </p> 
+            </td>
+        </tr>
+        <!-- body content end -->
+
+        <%- include('include/footer'); %>

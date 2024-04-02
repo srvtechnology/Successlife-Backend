@@ -1,0 +1,391 @@
+Static Ids
+
+Wallet id 1 means SR Admin Wallet
+=============================
+Payment Type ids
+USD Id is -------- 1
+SXL Id is -------- 2
+USDSXL Id is ----- 3
+FREE Id is ------- 4
+==============================
+
+For course payment category is always 1
+==============================
+For products payment category is always 1
+===============================
+
+SQL Query for Store Procedure
+
+sp_wallet_details
+
+DELIMITER $$
+CREATE DEFINER=`matrix`@`%` PROCEDURE `sp_wallet_details`(
+	IN orderId INTEGER(10),
+	IN vendorCommission INTEGER(10),
+	IN resellerCommission INTEGER(10)
+)
+BEGIN
+
+DECLARE commission_amount float;
+DECLARE reseller_amount float;
+DECLARE admin_amount float;
+
+DECLARE done INT DEFAULT FALSE;
+DECLARE reseller_id,vendor_id,productable_id INT;
+DECLARE totalAmount decimal;
+DECLARE productable_type varchar(255);
+
+DECLARE resellerWalletId INT;
+DECLARE vendorWalletId INT;
+DECLARE updateWallet INT;
+
+DECLARE wallet_cursor CURSOR FOR
+SELECT order_details.reseller_id,order_details.vendor_id,order_details.productable_id,
+sum(
+	( (`total_sxl`*`sxl_to_usd_rate`)+`total_usd`)
+	) AS totalAmount,order_details.productable_type
+FROM  `order_details`
+WHERE order_details.order_id =orderId
+GROUP BY order_details.vendor_id, order_details.reseller_id;
+
+ -- declare NOT FOUND handler
+DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+
+OPEN wallet_cursor;
+
+read_loop: LOOP
+	FETCH wallet_cursor INTO reseller_id,vendor_id,productable_id,totalAmount,productable_type;
+    IF done THEN
+		SET updateWallet = fn_udpate_wallets();
+		LEAVE read_loop;
+    END IF;
+
+     set commission_amount = ( totalAmount * vendorCommission ) / 100;
+
+		SET vendorWalletId = fn_check_wallet(vendor_id);
+
+        IF(vendorWalletId IS NULL) THEN
+
+			SET vendorWalletId = fn_create_wallet(vendor_id);
+
+		END IF;
+
+        IF(reseller_id IS NOT NULL) THEN
+
+			SET resellerWalletId = fn_check_wallet(reseller_id);
+
+			IF(resellerWalletId IS NULL) THEN
+
+				SET resellerWalletId = fn_create_wallet(reseller_id);
+
+			END IF;
+
+        END IF;
+
+
+        IF(reseller_id IS NOT NULL) THEN
+
+            set reseller_amount = ( commission_amount * resellerCommission ) / 100;
+            set admin_amount = commission_amount - reseller_amount;
+
+			INSERT INTO wallet_transactions (`transactionable_type`,`transactionable_id`,`description`,`amount`,`type`,`status`,`wallet_id`)
+            VALUES(productable_type,productable_id,'',reseller_amount,'credit','complete',resellerWalletId);
+
+			# vendor
+			INSERT INTO wallet_transactions (`transactionable_type`,`transactionable_id`,`description`,`amount`,`type`,`status`,`wallet_id`)
+			VALUES(productable_type,productable_id,'',commission_amount,'credit','complete',vendorWalletId);
+
+            # sr admin
+            INSERT INTO wallet_transactions (`transactionable_type`,`transactionable_id`,`description`,`amount`,`type`,`status`,`wallet_id`)
+            VALUES(productable_type,productable_id,'',admin_amount,'credit','complete',1);
+
+
+        ELSE
+			# vendor
+			INSERT INTO wallet_transactions (`transactionable_type`,`transactionable_id`,`description`,`amount`,`type`,`status`,`wallet_id`)
+			VALUES(productable_type,productable_id,'',commission_amount,'credit','complete',vendorWalletId);
+
+			# sr admin
+            INSERT INTO wallet_transactions (`transactionable_type`,`transactionable_id`,`description`,`amount`,`type`,`status`,`wallet_id`)
+            VALUES(productable_type,productable_id,'',commission_amount,'credit','complete',1);
+
+        END IF;
+
+	END LOOP;
+
+CLOSE wallet_cursor;
+
+END$$
+DELIMITER ;
+
+=====================================================================
+
+SQL Query for Function
+
+fn_check_wallet
+
+DELIMITER $$
+CREATE DEFINER=`matrix`@`%` FUNCTION `fn_check_wallet`(
+input_number int
+) RETURNS int(11)
+BEGIN
+	DECLARE walletID INT;
+
+		SET walletID = (SELECT id from wallets where user_id = input_number);
+
+
+	RETURN walletID;
+
+END$$
+DELIMITER ;
+
+=====================================================================
+
+SQL Query for Function
+
+fn_create_wallet
+
+DELIMITER $$
+CREATE DEFINER=`matkol2061`@`%` FUNCTION `fn_create_wallet`(
+input_number int
+) RETURNS int(11)
+BEGIN
+	DECLARE walletID INT;
+
+    INSERT INTO wallets (`id`,`user_id`) VALUES (id,input_number);
+
+	SET walletID = LAST_INSERT_ID();
+
+	RETURN walletID;
+
+END$$
+DELIMITER ;
+
+=====================================================================
+
+SQL Query for Function
+
+fn_udpate_wallets
+
+DELIMITER $$
+CREATE DEFINER=`matkol2061`@`%` FUNCTION `fn_udpate_wallets`() RETURNS int(11)
+BEGIN
+
+   update wallets as w, (
+   SELECT wallet_id, (SUM(COALESCE(CASE WHEN type = "credit" THEN amount END,0))
+   - SUM(COALESCE(CASE WHEN type = "debit" THEN amount END,0)))
+   balance
+   FROM wallet_transactions
+   GROUP BY wallet_id  ) as wt  SET w.amount = wt.balance
+   where wt.wallet_id = w.id;
+
+	RETURN 1;
+END$$
+DELIMITER ;
+
+======================================================================
+
+SQL Query for View
+
+vw_product_autocomplete_search
+
+CREATE
+    ALGORITHM = UNDEFINED
+    DEFINER = `matkol2061`@`%`
+    SQL SECURITY DEFINER
+VIEW `vw_product_autocomplete_search` AS
+    SELECT
+        `products`.`id` AS `id`,
+        `products`.`title` AS `search_name`,
+        `products`.`id` AS `enitity_id`,
+        'products' AS `enitity_type`,
+        `products`.`created_at` AS `created_at`
+    FROM
+        `products`
+    WHERE
+        ((`products`.`status` = 'publish')
+            AND (`products`.`approved_status` = 1))
+    UNION SELECT
+        `users`.`id` AS `id`,
+        CONCAT(COALESCE(`profiles`.`first_name`, ''),
+                '',
+                COALESCE(`profiles`.`middle_name`, ''),
+                ' ',
+                COALESCE(`profiles`.`last_name`, '')) AS `search_name`,
+        `profiles`.`id` AS `enitity_id`,
+        'profile' AS `enitity_type`,
+        `users`.`created_at` AS `created_at`
+    FROM
+        ((`users`
+        JOIN `profiles` ON ((`profiles`.`user_id` = `users`.`id`)))
+        LEFT JOIN `role_user` ON ((`role_user`.`user_id` = `users`.`id`)))
+    WHERE
+        ((`users`.`is_active` = 1)
+            AND (`role_user`.`role_id` = 4)
+            AND (`users`.`is_block` = 0))
+    UNION SELECT
+        `categories`.`id` AS `id`,
+        `categories`.`name` AS `search_name`,
+        `categories`.`id` AS `enitity_id`,
+        'categories' AS `enitity_type`,
+        `categories`.`created_at` AS `created_at`
+    FROM
+        `categories`
+    WHERE
+        (`categories`.`is_active` = 1)
+    UNION SELECT
+        `courses`.`id` AS `id`,
+        `courses`.`title` AS `search_name`,
+        `courses`.`id` AS `enitity_id`,
+        'courses' AS `enitity_type`,
+        `courses`.`created_at` AS `created_at`
+    FROM
+        `courses`
+    WHERE
+        ((`courses`.`status` = 'publish')
+            AND (`courses`.`is_active` = 1)
+            AND (`courses`.`is_delete` = 0)
+            AND (`courses`.`approved_status` = 1))
+
+======================================================================
+
+SQL Query for View
+
+vw_product_searches_2
+
+CREATE
+    ALGORITHM = UNDEFINED
+    DEFINER = `matkol2061`@`%`
+    SQL SECURITY DEFINER
+VIEW `vw_product_searches_2` AS
+    SELECT
+        `products`.`id` AS `id`,
+        `products`.`id` AS `enitity_id`,
+        'products' AS `enitity_type`,
+        `products`.`title` AS `title`,
+        `products`.`slug` AS `slug`,
+        `products`.`short_description` AS `sub_title`,
+        `products`.`description` AS `description`,
+        `products`.`rating` AS `rating`,
+        `products`.`product_type` AS `product_type`,
+        0 AS `duration`,
+        0 AS `stander_id`,
+        0 AS `stander_name`,
+        0 AS `lecture_count`,
+        0 AS `usd_price`,
+        0 AS `sxl_price`,
+        GROUP_CONCAT(`categories`.`name`
+            SEPARATOR ',') AS `category_name`,
+        GROUP_CONCAT(`categories`.`id`
+            SEPARATOR ',') AS `category_id`,
+        GROUP_CONCAT(`event_speakers`.`name`
+            SEPARATOR ',') AS `speaker_name`,
+        GROUP_CONCAT(`event_speakers`.`id`
+            SEPARATOR ',') AS `speaker_id`,
+        (SELECT
+                CONCAT(COALESCE(`profiles`.`first_name`, ''),
+                            '',
+                            COALESCE(`profiles`.`middle_name`, ''),
+                            ' ',
+                            COALESCE(`profiles`.`last_name`, ''))
+            FROM
+                `profiles`
+            WHERE
+                (`profiles`.`user_id` = `products`.`user_id`)) AS `user_full_name`,
+        (SELECT
+                `images`.`thumbnail`
+            FROM
+                `images`
+            WHERE
+                ((`images`.`imagable_type` = 'products')
+                    AND (`images`.`imagable_id` = `products`.`id`))
+            GROUP BY `products`.`id`) AS `image`,
+        `products`.`user_id` AS `user_id`,
+        `products`.`created_at` AS `created_at`
+    FROM
+        ((((`products`
+        LEFT JOIN `category_product` ON ((`category_product`.`product_id` = `products`.`id`)))
+        LEFT JOIN `categories` ON ((`categories`.`id` = `category_product`.`category_id`)))
+        LEFT JOIN `category_product_speakers` ON ((`category_product_speakers`.`product_id` = `products`.`id`)))
+        LEFT JOIN `event_speakers` ON ((`event_speakers`.`id` = `category_product_speakers`.`event_speaker_id`)))
+    WHERE
+        (`products`.`status` = 'publish') and (`products`.`approved_status` = 1)
+    GROUP BY `products`.`id`
+    UNION SELECT
+        `courses`.`id` AS `id`,
+        `courses`.`id` AS `enitity_id`,
+        'courses' AS `enitity_type`,
+        `courses`.`title` AS `title`,
+        `courses`.`slug` AS `slug`,
+        `courses`.`sub_title` AS `sub_title`,
+        `courses`.`description` AS `description`,
+        `courses`.`rating` AS `rating`,
+        'courses' AS `product_type`,
+        `courses`.`duration` AS `duration`,
+        `courses`.`course_stander_id` AS `stander_id`,
+        `course_standers`.`title` AS `stander_name`,
+        (SELECT
+                COUNT(`course_lectures`.`id`)
+            FROM
+                `course_lectures`
+            WHERE
+                `course_lectures`.`course_module_id` IN (SELECT
+                        `course_modules`.`id`
+                    FROM
+                        `course_modules`
+                    WHERE
+                        (`course_modules`.`course_id` = `courses`.`id`))) AS `lecture_count`,
+        (SELECT
+                GROUP_CONCAT(`product_prices`.`usd_price`
+                        SEPARATOR ',')
+            FROM
+                `product_prices`
+            WHERE
+                ((`product_prices`.`pricable_id` = `courses`.`id`)
+                    AND (`product_prices`.`pricable_type` = 'courses'))) AS `usd_price`,
+        (SELECT
+                GROUP_CONCAT(`product_prices`.`sxl_price`
+                        SEPARATOR ',')
+            FROM
+                `product_prices`
+            WHERE
+                ((`product_prices`.`pricable_id` = `courses`.`id`)
+                    AND (`product_prices`.`pricable_type` = 'courses'))) AS `sxl_price`,
+        GROUP_CONCAT(`categories`.`name`
+            SEPARATOR ',') AS `category_name`,
+        GROUP_CONCAT(`categories`.`id`
+            SEPARATOR ',') AS `category_id`,
+        NULL AS `speaker_name`,
+        NULL AS `speaker_id`,
+        (SELECT
+                CONCAT(COALESCE(`profiles`.`first_name`, ''),
+                            '',
+                            COALESCE(`profiles`.`middle_name`, ''),
+                            ' ',
+                            COALESCE(`profiles`.`last_name`, ''))
+            FROM
+                `profiles`
+            WHERE
+                (`profiles`.`user_id` = `courses`.`created_by`)) AS `user_full_name`,
+        (SELECT
+                `images`.`thumbnail`
+            FROM
+                `images`
+            WHERE
+                ((`images`.`imagable_type` = 'courses')
+                    AND (`images`.`imagable_id` = `courses`.`id`))
+            GROUP BY `courses`.`id`) AS `image`,
+        `courses`.`created_by` AS `user_id`,
+        `courses`.`created_at` AS `created_at`
+    FROM
+        (((`courses`
+        LEFT JOIN `category_course` ON ((`category_course`.`course_id` = `courses`.`id`)))
+        LEFT JOIN `categories` ON ((`categories`.`id` = `category_course`.`category_id`)))
+        LEFT JOIN `course_standers` ON ((`course_standers`.`id` = `courses`.`course_stander_id`)))
+    WHERE
+        ((`courses`.`status` = 'publish')
+            AND (`courses`.`is_active` = 1)
+            AND (`courses`.`is_delete` = 0)
+            AND (`courses`.`approved_status` = 1)
+            )
+    GROUP BY `courses`.`id`

@@ -1,0 +1,79 @@
+<%- include('include/header'); %>
+    <% var email_config = Config('application').email %>
+
+        <!-- header tr td strat -->
+        <tr>
+            <td style="height:auto; border-top-left-radius:5px; border-top-right-radius:5px; line-height: 0;">
+                <img src="<%= email_config.url %>images/tutor-order-notification-banner.png" alt="" style="border-top-left-radius:5px; border-top-right-radius:5px; width:640px;"
+                />
+            </td>
+        </tr>
+        <!-- header tr td strat -->
+
+        <!-- body content start -->
+        <tr>
+            <td style="background: #fff; padding:10px 30px 30px 30px;">
+                <p style="text-align: center;">
+                    <img src="<%= email_config.logo %>" alt="" />
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    We are so pleased to inform you that <%= details.product_details.title %> has been purchased by <%= details.order.user.profile.full_name %>. This letter will notify as a confirmation of your purchase.
+                </p>
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    The details of the order as follows
+                </p>
+                
+                    <table class="table" cellpadding="0" cellspacing="0" style="margin-bottom:15px; border:1px solid #d1d1d1;"> 
+                        <thead>
+                            <tr>
+                                <th scope="col" style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1;">Order ID</th>
+                                <th scope="col" style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1;">Total USD Amount</th>
+                                <th scope="col" style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1;">Total SXL Amount</th>
+                                <th scope="col" style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1;">Discount USD Amount</th>
+                                <th scope="col" style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1;">Order Date</th>
+                                <th scope="col" style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1;">Order Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1; border-top:1px solid #d1d1d1;">#SLM100<%= details.order.id %></td>
+                                
+                                <td style="padding:5px; text-align:left; font-size: 12px; font-family: arial;border-right: 1px solid #d1d1d1; border-top:1px solid #d1d1d1;"><%= (details.total_usd).toFixed(2) %> USD </td>
+
+                                <td style="padding:5px; text-align:left; font-size: 12px; font-family: arial; border-right: 1px solid #d1d1d1; border-top:1px solid #d1d1d1;">
+                                    <%= (details.total_sxl).toFixed(2) %> SXL </td>
+                                
+                                <td style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1; border-top:1px solid #d1d1d1;">
+                                <%= (details.discount_usd).toFixed(2) %>  USD                          
+                                </td>                                                                
+                                <td style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1; border-top:1px solid #d1d1d1;">
+                                    <%= moment( details.order.ordered_on ).format('DD-MM-YYYY') %>
+                                </td>
+                                <td style="padding:5px; text-align:left; font-size: 12px; font-family: arial;
+                                border-right: 1px solid #d1d1d1; border-top:1px solid #d1d1d1;"><%= details.order.order_status %></td> 
+                            </tr>                            
+                        </tbody>
+                    </table>
+               
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
+                    If you like to know anything, please don’t hesitate to contact us.
+                </p>                
+                <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Regards,
+                    <br>
+                    <%= Config('app').name %>
+                </p> 
+            </td>
+        </tr>
+        <!-- body content end -->
+
+
+        <%- include('include/footer'); %>
